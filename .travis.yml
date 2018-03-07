@@ -1,17 +1,19 @@
-language: csharp
-solution: IlluminateLms.sln
-dotnet: 2.1.4
-mono: none
-dist: trusty
-install:
-  - dotnet restore -s https://www.myget.org/F/aspnet-contrib/api/v3/index.json -s https://api.nuget.org/v3/index.json
+matrix:
+  include:
+    - language: csharp
+      solution: IlluminateLms.sln
+      dotnet: 2.1.4
+      mono: none
+      dist: trusty
+      install:
+        - dotnet restore -s https://www.myget.org/F/aspnet-contrib/api/v3/index.json -s https://api.nuget.org/v3/index.json
 
-script:
-  - dotnet build
-  - dotnet test IlluminateLms.Business.Test/IlluminateLms.Business.Test.csproj
-  - curl -sL https://deb.nodesource.com/setup_9.x | bash
-  - sudo apt-get -y install -y nodejs
-  - sudo apt-get install -y build-essential
-  - cd IlluminateLms.Web
-  - npm install
-  - npm test
+      script:
+        - dotnet build
+        - dotnet test IlluminateLms.Business.Test/IlluminateLms.Business.Test.csproj
+    - language: node_js
+      node_js: 7
+      script:
+        - cd IlluminateLms.Web
+        - yarn install
+        - yarn test
