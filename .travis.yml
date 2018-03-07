@@ -11,6 +11,8 @@ matrix:
       script:
         - dotnet build
         - dotnet test IlluminateLms.Business.Test/IlluminateLms.Business.Test.csproj
+        - dotnet publish -c Release IlluminateLms.Api
+        - dotnet publish -c Release IlluminateLms.Web
     - language: node_js
       node_js: 7
       script:
