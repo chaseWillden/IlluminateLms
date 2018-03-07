@@ -1,6 +1,7 @@
 language: csharp
 solution: IlluminateLms.sln
 dotnet: 2.1.4
+mono: none
 dist: trusty
 install:
   - dotnet restore -s https://www.myget.org/F/aspnet-contrib/api/v3/index.json -s https://api.nuget.org/v3/index.json
