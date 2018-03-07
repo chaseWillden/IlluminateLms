@@ -17,3 +17,6 @@ matrix:
         - cd IlluminateLms.Web
         - yarn install
         - yarn test
+notifications:
+  email:
+    - chase.willden@gmail.com
