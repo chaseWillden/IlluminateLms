@@ -1,0 +1,103 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/chasewillden/Documents/dev/IlluminateLms/IlluminateLms.Enterprise/IlluminateLms.Enterprise.csproj",
+    "projectName": "IlluminateLms.Enterprise",
+    "projectPath": "/Users/chasewillden/Documents/dev/IlluminateLms/IlluminateLms.Enterprise/IlluminateLms.Enterprise.csproj",
+    "outputPath": "/Users/chasewillden/Documents/dev/IlluminateLms/IlluminateLms.Enterprise/obj/",
+    "projectStyle": "PackageReference",
+    "crossTargeting": true,
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.0",
+      "netstandard2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {}
+      },
+      "netstandard2.0": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "AutoMapper": {
+          "target": "Package",
+          "version": "[6.2.2, )"
+        },
+        "Microsoft.AspNetCore.Authorization": {
+          "target": "Package",
+          "version": "[2.0.1, )"
+        },
+        "Microsoft.AspNetCore.Identity": {
+          "target": "Package",
+          "version": "[2.0.1, )"
+        },
+        "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[2.0.1, )"
+        },
+        "Microsoft.AspNetCore.Mvc.Core": {
+          "target": "Package",
+          "version": "[2.0.2, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    },
+    "netstandard2.0": {
+      "dependencies": {
+        "AutoMapper": {
+          "target": "Package",
+          "version": "[6.2.2, )"
+        },
+        "Microsoft.AspNetCore.Authorization": {
+          "target": "Package",
+          "version": "[2.0.1, )"
+        },
+        "Microsoft.AspNetCore.Identity": {
+          "target": "Package",
+          "version": "[2.0.1, )"
+        },
+        "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[2.0.1, )"
+        },
+        "Microsoft.AspNetCore.Mvc.Core": {
+          "target": "Package",
+          "version": "[2.0.2, )"
+        },
+        "NETStandard.Library": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.1, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

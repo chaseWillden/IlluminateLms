@@ -1,0 +1,3 @@
+// Permissions
+export const LIST_PERMISSIONS = 'LIST_PERMISSIONS';
+export const ADDED_PERMISSIONS = 'ADDED_PERMISSIONS';

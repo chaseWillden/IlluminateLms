@@ -1,0 +1,90 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/chasewillden/Documents/dev/IlluminateLms/IlluminateLms.Api/IlluminateLms.Api.csproj",
+    "projectName": "IlluminateLms.Api",
+    "projectPath": "/Users/chasewillden/Documents/dev/IlluminateLms/IlluminateLms.Api/IlluminateLms.Api.csproj",
+    "outputPath": "/Users/chasewillden/Documents/dev/IlluminateLms/IlluminateLms.Api/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {
+          "/Users/chasewillden/Documents/dev/IlluminateLms/IlluminateLms.Business/IlluminateLms.Business.csproj": {
+            "projectPath": "/Users/chasewillden/Documents/dev/IlluminateLms/IlluminateLms.Business/IlluminateLms.Business.csproj"
+          },
+          "/Users/chasewillden/Documents/dev/IlluminateLms/IlluminateLms.Enterprise/IlluminateLms.Enterprise.csproj": {
+            "projectPath": "/Users/chasewillden/Documents/dev/IlluminateLms/IlluminateLms.Enterprise/IlluminateLms.Enterprise.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "AspNet.Security.OAuth.Validation": {
+          "target": "Package",
+          "version": "[2.0.0-rc1-final, )"
+        },
+        "AutoMapper": {
+          "target": "Package",
+          "version": "[6.2.2, )"
+        },
+        "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+          "target": "Package",
+          "version": "[3.2.0, )"
+        },
+        "Microsoft.AspNetCore.All": {
+          "target": "Package",
+          "version": "[2.0.3, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.0, )",
+          "autoReferenced": true
+        },
+        "OpenIddict": {
+          "target": "Package",
+          "version": "[2.0.0-rc2-0783, )"
+        },
+        "OpenIddict.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[2.0.0-rc2-0783, )"
+        },
+        "OpenIddict.Mvc": {
+          "target": "Package",
+          "version": "[2.0.0-rc2-0783, )"
+        },
+        "Pomelo.EntityFrameworkCore.MySql": {
+          "target": "Package",
+          "version": "[2.0.1, )"
+        },
+        "Serilog.Extensions.Logging.File": {
+          "target": "Package",
+          "version": "[1.1.0, )"
+        },
+        "Swashbuckle.AspNetCore": {
+          "target": "Package",
+          "version": "[1.1.0, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <LangVersion>7.2</LangVersion>
+    <TargetFrameworks>netcoreapp2.0;netstandard2.0</TargetFrameworks>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AspNet.Security.OpenIdConnect.Server" Version="1.0.2" />
+    <PackageReference Include="AutoMapper" Version="6.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.0.0" />
+    <PackageReference Include="OpenIddict.Core" Version="2.0.0-rc1-final" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IlluminateLms.Enterprise\IlluminateLms.Enterprise.csproj" />
+  </ItemGroup>
+</Project>

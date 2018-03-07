@@ -1,0 +1,7 @@
+{
+	"bundles": {
+		"src/dynamically-imported-file": {
+			"optimization": "simple"
+		}
+	}
+}

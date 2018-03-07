@@ -1,0 +1,12 @@
+.uk-navbar-container:not(.uk-navbar-transparent){
+  background-color: white;
+  border-bottom: solid 1px #d0d3de;
+}
+
+.logo{
+  width: 32px;
+}
+
+.logo-container{
+  border-right: solid 1px #d0d3de;
+}

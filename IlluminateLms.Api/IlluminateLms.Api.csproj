@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <LangVersion>7.2</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="3.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.3" />
+    <PackageReference Include="OpenIddict" Version="2.0.0-rc2-0783" />
+    <PackageReference Include="OpenIddict.EntityFrameworkCore" Version="2.0.0-rc2-0783" />
+    <PackageReference Include="OpenIddict.Mvc" Version="2.0.0-rc2-0783" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.0.1" />
+    <PackageReference Include="Serilog.Extensions.Logging.File" Version="1.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="1.1.0" />
+    <PackageReference Include="AspNet.Security.OAuth.Validation" Version="2.0.0-rc1-final" />
+    <PackageReference Include="AutoMapper" Version="6.2.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.1" />
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IlluminateLms.Business\IlluminateLms.Business.csproj">
+      <Project>{1C4442B7-0D17-46D3-A162-D538A37A0652}</Project>
+      <Name>IlluminateLms.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IlluminateLms.Enterprise\IlluminateLms.Enterprise.csproj">
+      <Project>{DFF05D89-2C2F-42FA-85B6-8A59F577379F}</Project>
+      <Name>IlluminateLms.Enterprise</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+.uk-button-default.btn-grey{
+  background-color: #e2e2e2;
+  color: #333333;
+
+  &:hover, &:active, &:focus{
+    background-color: #d6d6d6;
+    color: #333333;
+  }
+}

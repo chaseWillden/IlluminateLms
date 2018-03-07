@@ -1,0 +1,116 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Roboto+Mono';
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #f5f6f8;
+  min-height: 150%;
+  padding-bottom: 40px;
+}
+
+// 1. Your custom variables and variable overwrites.
+$navbar-nav-item-height: 50px;
+$navbar-nav-item-font-size: .8em;
+$logo-font-size: 1em;
+$navbar-dropdown-padding: 15px;
+$dropdown-padding: 15px;
+$navbar-dropdown-margin: 8px;
+$dropdown-margin: 8px;
+$section-muted-background: #ececec;
+$global-link-color: #0f6ecd;
+$modal-z-index: 9999;
+
+// 2. Import default variables and available mixins.
+@import "../../node_modules/uikit/src/scss/variables-theme.scss";
+@import "../../node_modules/uikit/src/scss/mixins-theme.scss";
+
+// 3. Your custom mixin overwrites.
+@mixin hook-card() { color: #000; }
+
+// 4. Import UIkit.
+@import "../../node_modules/uikit/src/scss/uikit-theme.scss";
+
+.uk-form-stacked .uk-form-label{
+  margin-left: 2px;
+}
+
+.uk-container > h1{
+  margin-top: 10px;
+}
+
+.uk-avatar-person{
+  margin-right: 20px;
+}
+
+.search-results{
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  margin-top: 6px;
+  -webkit-box-shadow: 0px 5px 11px -5px rgba(0,0,0,.8);
+  -moz-box-shadow: 0px 5px 11px -5px rgba(0,0,0,.8);
+  box-shadow: 0px 5px 11px -5px rgba(0,0,0,.8);
+  
+  > li{
+    margin: 0;
+    margin-top: 0 !important;
+
+    .is-active.nav-link:before{
+      content: ' ';
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-top: 5px solid transparent;
+      border-bottom: 5px solid transparent;
+      border-left: 8px solid #116dcf;
+      left: 12px;
+      margin-top: 15px;
+    }
+
+    .uk-button{
+      text-transform: none;
+
+      .uk-badge{
+        float: right;
+        margin-top: 8px;
+        font-size: 9px;
+      }
+    }
+  }
+}
+
+.btn-margin-left{
+  margin-left: 10px;
+}
+
+.uk-dropdown, .uk-navbar-dropdown{
+  .uk-icon{
+    margin-right: 6px;
+  }
+}
+
+.strike{
+  text-decoration: line-through;
+}
+
+.bookmark-course{
+  width: 250px;
+}
+
+.no-underline:hover{
+  text-decoration: none;
+}
+
+.uk-button{
+
+  &.with-icon{
+    padding-left: 13px;
+    padding-right: 22px;
+  }
+
+  .uk-icon{
+    margin-right: 8px;
+  }
+}

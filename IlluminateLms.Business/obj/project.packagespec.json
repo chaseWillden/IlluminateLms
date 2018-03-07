@@ -1,0 +1,119 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/chasewillden/Documents/dev/IlluminateLms/IlluminateLms.Business/IlluminateLms.Business.csproj",
+    "projectName": "IlluminateLms.Business",
+    "projectPath": "/Users/chasewillden/Documents/dev/IlluminateLms/IlluminateLms.Business/IlluminateLms.Business.csproj",
+    "outputPath": "/Users/chasewillden/Documents/dev/IlluminateLms/IlluminateLms.Business/obj/",
+    "projectStyle": "PackageReference",
+    "crossTargeting": true,
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.0",
+      "netstandard2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {
+          "/Users/chasewillden/Documents/dev/IlluminateLms/IlluminateLms.Enterprise/IlluminateLms.Enterprise.csproj": {
+            "projectPath": "/Users/chasewillden/Documents/dev/IlluminateLms/IlluminateLms.Enterprise/IlluminateLms.Enterprise.csproj"
+          }
+        }
+      },
+      "netstandard2.0": {
+        "projectReferences": {
+          "/Users/chasewillden/Documents/dev/IlluminateLms/IlluminateLms.Enterprise/IlluminateLms.Enterprise.csproj": {
+            "projectPath": "/Users/chasewillden/Documents/dev/IlluminateLms/IlluminateLms.Enterprise/IlluminateLms.Enterprise.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "AspNet.Security.OpenIdConnect.Server": {
+          "target": "Package",
+          "version": "[1.0.2, )"
+        },
+        "AutoMapper": {
+          "target": "Package",
+          "version": "[6.2.2, )"
+        },
+        "Microsoft.AspNetCore.Authentication": {
+          "target": "Package",
+          "version": "[2.0.1, )"
+        },
+        "Microsoft.Extensions.DependencyInjection": {
+          "target": "Package",
+          "version": "[2.0.0, )"
+        },
+        "Microsoft.Extensions.DependencyInjection.Abstractions": {
+          "target": "Package",
+          "version": "[2.0.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.0, )",
+          "autoReferenced": true
+        },
+        "OpenIddict.Core": {
+          "target": "Package",
+          "version": "[2.0.0-rc1-final, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    },
+    "netstandard2.0": {
+      "dependencies": {
+        "AspNet.Security.OpenIdConnect.Server": {
+          "target": "Package",
+          "version": "[1.0.2, )"
+        },
+        "AutoMapper": {
+          "target": "Package",
+          "version": "[6.2.2, )"
+        },
+        "Microsoft.AspNetCore.Authentication": {
+          "target": "Package",
+          "version": "[2.0.1, )"
+        },
+        "Microsoft.Extensions.DependencyInjection": {
+          "target": "Package",
+          "version": "[2.0.0, )"
+        },
+        "Microsoft.Extensions.DependencyInjection.Abstractions": {
+          "target": "Package",
+          "version": "[2.0.0, )"
+        },
+        "NETStandard.Library": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.1, )",
+          "autoReferenced": true
+        },
+        "OpenIddict.Core": {
+          "target": "Package",
+          "version": "[2.0.0-rc1-final, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

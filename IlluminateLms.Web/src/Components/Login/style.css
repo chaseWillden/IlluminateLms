@@ -1,0 +1,24 @@
+html{
+  height: 100%;
+}
+
+body{
+  min-height: 100%;
+  background-color: whitesmoke;
+}
+
+.login-container{
+  width: 350px;
+  margin-top: 100px;
+}
+
+.block{
+  display: block !important;
+}
+
+.login-logo{
+  width: 175px;
+  height: 175px;
+  margin: 0 auto;
+  display: block;
+}
