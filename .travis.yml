@@ -1,0 +1,24 @@
+matrix:
+  include:
+    - language: csharp
+      solution: IlluminateLms.sln
+      dotnet: 2.1.4
+      mono: none
+      dist: trusty
+      install:
+        - dotnet restore -s https://www.myget.org/F/aspnet-contrib/api/v3/index.json -s https://api.nuget.org/v3/index.json
+
+      script:
+        - dotnet build
+        - dotnet test IlluminateLms.Business.Test/IlluminateLms.Business.Test.csproj
+        - dotnet publish -c Release IlluminateLms.Api
+        - dotnet publish -c Release IlluminateLms.Web
+    - language: node_js
+      node_js: 7
+      script:
+        - cd IlluminateLms.Web
+        - yarn install
+        - yarn test
+notifications:
+  email:
+    - chase.willden@gmail.com
