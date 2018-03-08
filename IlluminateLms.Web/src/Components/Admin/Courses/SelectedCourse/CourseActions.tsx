@@ -1,6 +1,4 @@
 import * as React from 'react'
-import { DropDownButtonGrid, DropDownItem } from '../../../../Containers/DropDown';
-import { Header } from '../../../../Containers/Navigation';
 import { connect } from 'react-redux';
 import {
   GetCourseById,
@@ -9,17 +7,35 @@ import {
   GetBookmarkByCourseId,
   RemoveCourseBookmark
 } from '../../../../Actions';
-import { ConfirmationModal } from '../../../../Containers/Modal';
 import { BookmarkedCourse, Course } from '../../../../Models/index';
 import { containsPermissionInRoles } from '../../../../Helpers/PermissionHelper';
-import { DELETE_COURSE } from '../../../../Constants/Roles';
-
-const deleteConfirmationText = 'Are you sure you want to delete this course?';
+import {
+  ListItemIcon,
+  MenuItem,
+  ListItemText,
+  ListSubheader,
+  DialogTitle,
+  Dialog,
+  DialogContent,
+  DialogContentText,
+  DialogActions,
+  Button
+} from 'material-ui'
+import {
+  List,
+  Add,
+  Public,
+  Bookmark,
+  Publish,
+  ContentCopy,
+  Delete
+} from 'material-ui-icons'
 
 class CourseActionsContainer extends React.Component<any, any>{
 
   state = {
-    gotBookmark: false
+    gotBookmark: false,
+    dialogOpened: false
   }
 
   componentWillReceiveProps(nextProps: any) {
@@ -38,49 +54,75 @@ class CourseActionsContainer extends React.Component<any, any>{
     return containsPermissionInRoles(this.props.roles, value);
   }
 
+  /**
+   * Archive course
+   */
+  archive(actually: boolean){
+    if (actually) this.props.archiveCourse(this.props.selectedCourse.courseId);
+    console.log('here');
+    this.setState({dialogOpened: false});
+  }
+
   render() {
     let course: Course = this.props.selectedCourse;
     let bookmark: BookmarkedCourse = this.props.bookmarkedCourse;
     return (
-      <div className='uk-inline'>
-        <DropDownButtonGrid text='Actions' className='btn-margin-left uk-width-large'>
-          <div className="uk-dropdown-grid uk-child-width-1-2@m" data-uk-grid>
-            <div>
-              <ul className="uk-nav uk-dropdown-nav">
-                <Header name='Enrollments' />
-                <DropDownItem text='View enrollments' icon='users' onClick={() => { }} />
-                <DropDownItem text='Add an enrollment' icon='plus' onClick={() => { }} />
+      <div>
+        <ListSubheader>Enrollments</ListSubheader>
+        <MenuItem>
+          <ListItemIcon><List /></ListItemIcon>
+          <ListItemText inset primary='View Enrollments' />
+        </MenuItem>
+        <MenuItem>
+          <ListItemIcon><Add /></ListItemIcon>
+          <ListItemText inset primary='Add an Enrollment' />
+        </MenuItem>
 
-                <Header name='Global' />
-                <DropDownItem text='Make public' icon='world' onClick={() => { }} />
-                <DropDownItem text={!bookmark.course || bookmark.course.courseId === course.courseId ? 'Remove Bookmark' : 'Create Bookmark'} icon='bookmark' onClick={() => {
-                  if (!bookmark.course || bookmark.course.bookmarkedCourseId === course.courseId) {
-                    this.props.removeBookmarkedCourse(course.courseId);
-                  }
-                  else {
-                    this.props.createBookmarkedCourse({
-                      course: course
-                    });
-                  }
-                }} />
-              </ul>
-            </div>
-            <div>
-              <ul className='uk-nav uk-dropdown-nav'>
-                <Header name='Administrative' />
-                {!this.hasPermission(DELETE_COURSE) ? '' : <DropDownItem text='Delete the course' icon='trash' onClick={() => { }} data-uk-toggle="target: #confDialog" />}
-                <DropDownItem text='Publish the course' icon='cloud-upload' onClick={() => { }} />
-                <DropDownItem text='Copy the course' icon='copy' onClick={() => { }} />
-              </ul>
-            </div>
-          </div>
-        </DropDownButtonGrid>
-        <ConfirmationModal
-          id="confDialog"
-          text={deleteConfirmationText}
-          yesClicked={() => this.props.archiveCourse(this.props.selectedCourse.courseId)}>
-          Are you sure that you want to delete this course?
-        </ConfirmationModal>
+        <ListSubheader>Global</ListSubheader>
+        <MenuItem>
+          <ListItemIcon><Public /></ListItemIcon>
+          <ListItemText inset primary='Make Public' />
+        </MenuItem>
+        <MenuItem onClick={() => {
+          if (!bookmark.course || bookmark.course.bookmarkedCourseId === course.courseId) {
+            this.props.removeBookmarkedCourse(course.courseId);
+          }
+          else {
+            this.props.createBookmarkedCourse({
+              course: course
+            });
+          }
+        }}>
+          <ListItemIcon><Bookmark /></ListItemIcon>
+          <ListItemText inset primary={!bookmark.course || bookmark.course.courseId === course.courseId ? 'Remove Bookmark' : 'Create Bookmark'} />
+        </MenuItem>
+        <ListSubheader>Global</ListSubheader>
+        <MenuItem>
+          <ListItemIcon><Publish /></ListItemIcon>
+          <ListItemText inset primary='Publish the course' />
+        </MenuItem>
+        <MenuItem>
+          <ListItemIcon><ContentCopy /></ListItemIcon>
+          <ListItemText inset primary='Copy the course' />
+        </MenuItem>
+        <MenuItem onClick={() => this.setState({ dialogOpened: true })}>
+          <ListItemIcon><Delete /></ListItemIcon>
+          <ListItemText inset primary='Delete the course' />
+        </MenuItem>
+        <Dialog
+          open={this.state.dialogOpened}
+          onClose={() => this.setState({ dialogOpened: false })}
+          aria-labelledby="alert-dialog-confirmation"
+          aria-describedby="alert-dialog-description" >
+          <DialogTitle>Are you sure?</DialogTitle>
+          <DialogContent>
+            <DialogContentText>Are you sure that you want to delete this course?</DialogContentText>
+          </DialogContent>
+          <DialogActions>
+            <Button color='primary' onClick={this.archive.bind(this, true)}>Yes</Button>
+            <Button onClick={this.archive.bind(this, false)}>No</Button>
+          </DialogActions>
+        </Dialog>
       </div>
     )
   }

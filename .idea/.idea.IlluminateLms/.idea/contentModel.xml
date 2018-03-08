@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.2.0/build/netcoreapp1.0/xunit.runner.reporters.netstandard15.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.2.0/build/netcoreapp1.0/xunit.runner.utility.netstandard15.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.2.0/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="IlluminateLms.Api" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="AccountController.cs" t="Include" />
+          <e p="AuthController.cs" t="Include" />
+          <e p="BookmarkedCoursesController.cs" t="Include" />
+          <e p="ContentItemController.cs" t="Include" />
+          <e p="CourseController.cs" t="Include" />
+          <e p="EnrollmentController.cs" t="Include" />
+          <e p="PermissionController.cs" t="Include" />
+          <e p="RoleController.cs" t="Include" />
+          <e p="UserController.cs" t="Include" />
+        </e>
+        <e p="Helpers" t="Include">
+          <e p="ApiExceptionFilter.cs" t="Include" />
+          <e p="AppSettings.cs" t="Include" />
+          <e p="CommonResponse.cs" t="Include" />
+          <e p="ConfigPolicies.cs" t="Include" />
+          <e p="TicketHelper.cs" t="Include" />
+        </e>
+        <e p="IlluminateLms.Api.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="IlluminateLms.Api.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Policies" t="Include">
+          <e p="AccountPolicies.cs" t="Include" />
+          <e p="CoursePolicies.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Startup.cs" t="Include" />
+        <e p="tempkey.rsa" t="Include" />
+      </e>
+      <e p="IlluminateLms.Business" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Business" t="Include">
+          <e p="AccountBusiness.cs" t="Include" />
+          <e p="BookmarkedCoursesBusiness.cs" t="Include" />
+          <e p="ContentItemBusiness.cs" t="Include" />
+          <e p="CourseBusiness.cs" t="Include" />
+          <e p="EnrollmentBusiness.cs" t="Include" />
+          <e p="PermissionBusiness.cs" t="Include" />
+          <e p="RoleBusiness.cs" t="Include" />
+          <e p="UserBusiness.cs" t="Include" />
+        </e>
+        <e p="Helpers" t="Include">
+          <e p="AutomapperProfile.cs" t="Include" />
+          <e p="CommonConfig.cs" t="Include" />
+          <e p="Policies.cs" t="Include" />
+        </e>
+        <e p="IlluminateLms.Business.csproj" t="IncludeRecursive" />
+        <e p="Model" t="Include">
+          <e p="Account.cs" t="Include" />
+          <e p="BookmarkedCourse.cs" t="Include" />
+          <e p="ContentItem.cs" t="Include" />
+          <e p="Course.cs" t="Include" />
+          <e p="Enrollment.cs" t="Include" />
+          <e p="Permission.cs" t="Include" />
+          <e p="Role.cs" t="Include" />
+          <e p="User.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="IlluminateLms.Business.AssemblyInfo.cs" t="Include" />
+            </e>
+            <e p="netstandard2.0" t="Include">
+              <e p="IlluminateLms.Business.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="IlluminateLms.Business.Test" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="IlluminateLms.Business.Test.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="IlluminateLms.Business.Test.AssemblyInfo.cs" t="Include" />
+              <e p="IlluminateLms.Business.Test.Program.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="TemplateFixture.cs" t="Include" />
+        <e p="Tests" t="Include">
+          <e p="AccountBusinessTest.cs" t="Include" />
+          <e p="CourseBusinessTest.cs" t="Include" />
+          <e p="RoleBusinessTest.cs" t="Include" />
+        </e>
+      </e>
+      <e p="IlluminateLms.Enterprise" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Constants" t="Include">
+          <e p="Roles.cs" t="Include" />
+        </e>
+        <e p="Entities" t="Include">
+          <e p="Account.cs" t="Include" />
+          <e p="BookmarkedCourse.cs" t="Include" />
+          <e p="ContentItem.cs" t="Include" />
+          <e p="Course.cs" t="Include" />
+          <e p="Enrollment.cs" t="Include" />
+          <e p="Identity" t="Include">
+            <e p="ApplicationPermission.cs" t="Include" />
+            <e p="ApplicationRole.cs" t="Include" />
+            <e p="ApplicationUser.cs" t="Include" />
+          </e>
+          <e p="IlluminateLmsContext.cs" t="Include" />
+        </e>
+        <e p="Helpers" t="Include">
+          <e p="ApplicationPermissions.cs" t="Include" />
+          <e p="CustomClaimTypes.cs" t="Include" />
+        </e>
+        <e p="IlluminateLms.Enterprise.csproj" t="IncludeRecursive" />
+        <e p="Interfaces" t="Include">
+          <e p="IAccountRepository.cs" t="Include" />
+          <e p="IAuditableEntity.cs" t="Include" />
+          <e p="IBookmarkedCourseRepository.cs" t="Include" />
+          <e p="IContentItemRepository.cs" t="Include" />
+          <e p="ICourseRepository.cs" t="Include" />
+          <e p="IEnrollmentRepository.cs" t="Include" />
+          <e p="IIlluminateLmsDatabaseInitalizer.cs" t="Include" />
+          <e p="IPermissionRepository.cs" t="Include" />
+          <e p="IRoleRepository.cs" t="Include" />
+          <e p="IUserRepository.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="IlluminateLms.Enterprise.AssemblyInfo.cs" t="Include" />
+            </e>
+            <e p="netstandard2.0" t="Include">
+              <e p="IlluminateLms.Enterprise.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="AccountRepository.cs" t="Include" />
+          <e p="BookmarkedCourseRepository.cs" t="Include" />
+          <e p="ContentItemRepository.cs" t="Include" />
+          <e p="CourseRepository.cs" t="Include" />
+          <e p="EnrollmentRepository.cs" t="Include" />
+          <e p="PermissionRepository.cs" t="Include" />
+          <e p="RoleRepository.cs" t="Include" />
+          <e p="UserRepository.cs" t="Include" />
+        </e>
+        <e p="Utilities" t="Include">
+          <e p="IlluminateLmsDatabaseInitalizer.cs" t="Include" />
+          <e p="UpdateEntity.cs" t="Include" />
+        </e>
+      </e>
+      <e p="IlluminateLms.sln" t="IncludeFlat" />
+      <e p="IlluminateLms.Web" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
+        <e p=".parcelclosurerc" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="HomeController.cs" t="Include" />
+          <e p="LoginController.cs" t="Include" />
+        </e>
+        <e p="IlluminateLms.Web.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="IlluminateLms.Web.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="package-lock.json" t="Include" />
+        <e p="package.json" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="src" t="Include">
+          <e p="Actions" t="Include">
+            <e p="BookmarkActions.ts" t="Include" />
+            <e p="ContentItemActions.ts" t="Include" />
+            <e p="CourseActions.ts" t="Include" />
+            <e p="EnrollmentActions.ts" t="Include" />
+            <e p="index.ts" t="Include" />
+            <e p="PermissionActions.ts" t="Include" />
+            <e p="RoleActions.ts" t="Include" />
+            <e p="UserActions.ts" t="Include" />
+          </e>
+          <e p="browserMock.js" t="Include" />
+          <e p="Components" t="Include">
+            <e p="Admin" t="Include">
+              <e p="Courses" t="Include">
+                <e p="Creator" t="Include">
+                  <e p="CourseState.ts" t="Include" />
+                  <e p="index.tsx" t="Include" />
+                </e>
+                <e p="index.tsx" t="Include" />
+                <e p="List" t="Include">
+                  <e p="index.tsx" t="Include" />
+                </e>
+                <e p="SelectedCourse" t="Include">
+                  <e p="CourseActions.tsx" t="Include" />
+                  <e p="index.tsx" t="Include" />
+                  <e p="LaunchCourse.tsx" t="Include" />
+                  <e p="States.ts" t="Include" />
+                </e>
+              </e>
+              <e p="People" t="Include">
+                <e p="Creator" t="Include">
+                  <e p="index.tsx" t="Include" />
+                  <e p="PeopleState.ts" t="Include" />
+                </e>
+                <e p="index.tsx" t="Include" />
+                <e p="List" t="Include">
+                  <e p="index.tsx" t="Include" />
+                </e>
+                <e p="SelectedUser" t="Include">
+                  <e p="index.tsx" t="Include" />
+                  <e p="RoleList.tsx" t="Include" />
+                  <e p="State.ts" t="Include" />
+                  <e p="UserActions.tsx" t="Include" />
+                </e>
+              </e>
+              <e p="Roles" t="Include">
+                <e p="index.tsx" t="Include" />
+                <e p="RoleCreator" t="Include">
+                  <e p="index.tsx" t="Include" />
+                </e>
+                <e p="RoleList" t="Include">
+                  <e p="index.tsx" t="Include" />
+                  <e p="style.css" t="Include" />
+                </e>
+                <e p="SelectedRole" t="Include">
+                  <e p="index.tsx" t="Include" />
+                  <e p="PermissionList.tsx" t="Include" />
+                  <e p="Props.ts" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="AppBar" t="Include">
+              <e p="__tests__" t="Include">
+                <e p="AppBar.test.tsx" t="Include" />
+              </e>
+              <e p="Admin.tsx" t="Include" />
+              <e p="index.tsx" t="Include" />
+              <e p="Logo.tsx" t="Include" />
+              <e p="Profile.tsx" t="Include" />
+              <e p="Search" t="Include">
+                <e p="index.tsx" t="Include" />
+                <e p="JsonData.ts" t="Include" />
+                <e p="Results.tsx" t="Include" />
+              </e>
+              <e p="style.css" t="Include" />
+            </e>
+            <e p="Course" t="Include">
+              <e p="ClassList" t="Include">
+                <e p="ClassListActions.tsx" t="Include" />
+                <e p="index.tsx" t="Include" />
+                <e p="Props.ts" t="Include" />
+                <e p="style.scss" t="Include" />
+                <e p="Table.tsx" t="Include" />
+              </e>
+              <e p="Content" t="Include">
+                <e p="Add.tsx" t="Include" />
+                <e p="ContentActions.tsx" t="Include" />
+                <e p="ContentList.tsx" t="Include" />
+                <e p="index.tsx" t="Include" />
+                <e p="Props.ts" t="Include" />
+                <e p="style.scss" t="Include" />
+              </e>
+              <e p="ContentSettings" t="Include">
+                <e p="index.tsx" t="Include" />
+              </e>
+              <e p="Dashboard" t="Include">
+                <e p="index.tsx" t="Include" />
+              </e>
+              <e p="index.tsx" t="Include" />
+              <e p="Settings" t="Include">
+                <e p="index.tsx" t="Include" />
+              </e>
+            </e>
+            <e p="Courses" t="Include">
+              <e p="List" t="Include" />
+            </e>
+            <e p="Dashboard" t="Include">
+              <e p="index.tsx" t="Include" />
+              <e p="style.scss" t="Include" />
+            </e>
+            <e p="Login" t="Include">
+              <e p="index.tsx" t="Include" />
+              <e p="style.css" t="Include" />
+            </e>
+            <e p="Profile" t="Include">
+              <e p="Home" t="Include">
+                <e p="index.tsx" t="Include" />
+              </e>
+              <e p="index.tsx" t="Include" />
+            </e>
+          </e>
+          <e p="Constants" t="Include">
+            <e p="ActionTypes" t="Include">
+              <e p="Bookmark.ts" t="Include" />
+              <e p="ContentItems.ts" t="Include" />
+              <e p="Course.ts" t="Include" />
+              <e p="Enrollment.ts" t="Include" />
+              <e p="index.ts" t="Include" />
+              <e p="Permissions.ts" t="Include" />
+              <e p="Roles.ts" t="Include" />
+              <e p="User.ts" t="Include" />
+            </e>
+            <e p="Events.ts" t="Include" />
+            <e p="Roles" t="Include">
+              <e p="Course.ts" t="Include" />
+              <e p="index.ts" t="Include" />
+              <e p="Roles.ts" t="Include" />
+              <e p="Users.ts" t="Include" />
+            </e>
+          </e>
+          <e p="Containers" t="Include">
+            <e p="__tests__" t="Include">
+              <e p="Modal.tsx" t="Include" />
+              <e p="Navigation.test.tsx" t="Include" />
+              <e p="Section.test.tsx" t="Include" />
+            </e>
+            <e p="Button" t="Include">
+              <e p="Button.tsx" t="Include" />
+              <e p="EditCancelButton.tsx" t="Include" />
+              <e p="index.tsx" t="Include" />
+            </e>
+            <e p="DropDown.tsx" t="Include" />
+            <e p="Form" t="Include">
+              <e p="__tests__" t="Include">
+                <e p="Form.test.tsx" t="Include" />
+                <e p="FormField.test.tsx" t="Include" />
+                <e p="Input.test.tsx" t="Include" />
+              </e>
+              <e p="FieldSet.tsx" t="Include" />
+              <e p="Form.tsx" t="Include" />
+              <e p="FormField.tsx" t="Include" />
+              <e p="index.ts" t="Include" />
+              <e p="Input.tsx" t="Include" />
+              <e p="Select.tsx" t="Include" />
+            </e>
+            <e p="Modal" t="Include">
+              <e p="ConfirmationModal.tsx" t="Include" />
+              <e p="index.ts" t="Include" />
+              <e p="Modal.tsx" t="Include" />
+            </e>
+            <e p="Navbar" t="Include">
+              <e p="Constants.tsx" t="Include" />
+              <e p="index.tsx" t="Include" />
+              <e p="MenuDropdown.tsx" t="Include" />
+              <e p="Props.ts" t="Include" />
+            </e>
+            <e p="Navigation.tsx" t="Include" />
+            <e p="Page.tsx" t="Include" />
+            <e p="Props.ts" t="Include" />
+            <e p="Section.tsx" t="Include" />
+            <e p="style.scss" t="Include" />
+          </e>
+          <e p="Helpers" t="Include">
+            <e p="Constants.ts" t="Include" />
+            <e p="Cookies.ts" t="Include" />
+            <e p="index.ts" t="Include" />
+            <e p="JQueryPromise.ts" t="Include" />
+            <e p="PermissionHelper.ts" t="Include" />
+            <e p="ReactRouterProps.ts" t="Include" />
+            <e p="Url.ts" t="Include" />
+          </e>
+          <e p="index.tsx" t="Include" />
+          <e p="login.tsx" t="Include" />
+          <e p="Models" t="Include">
+            <e p="Account.ts" t="Include" />
+            <e p="Auth.ts" t="Include" />
+            <e p="Base.ts" t="Include" />
+            <e p="BookmarkedCourse.ts" t="Include" />
+            <e p="ContentItem.ts" t="Include" />
+            <e p="Course.ts" t="Include" />
+            <e p="Enrollment.ts" t="Include" />
+            <e p="index.ts" t="Include" />
+            <e p="Password.ts" t="Include" />
+            <e p="PasswordError.ts" t="Include" />
+            <e p="Permission.ts" t="Include" />
+            <e p="Result.ts" t="Include" />
+            <e p="Role.ts" t="Include" />
+            <e p="User.ts" t="Include" />
+          </e>
+          <e p="README.md" t="Include" />
+          <e p="Reducers" t="Include">
+            <e p="BookmarkReducer.ts" t="Include" />
+            <e p="ContentItemReducer.ts" t="Include" />
+            <e p="CourseReducer.ts" t="Include" />
+            <e p="EnrollmentReducer.ts" t="Include" />
+            <e p="index.ts" t="Include" />
+            <e p="PermissionReducer.ts" t="Include" />
+            <e p="RoleReducer.ts" t="Include" />
+            <e p="UserReducer.ts" t="Include" />
+          </e>
+          <e p="Routes.tsx" t="Include" />
+          <e p="Services" t="Include">
+            <e p="__test_s__" t="Include">
+              <e p="AuthService.test.ts" t="Include" />
+              <e p="CourseService.test.ts" t="Include" />
+              <e p="UserService.test.ts" t="Include" />
+            </e>
+            <e p="AccountService.ts" t="Include" />
+            <e p="ApiService.ts" t="Include" />
+            <e p="AuthService.ts" t="Include" />
+            <e p="BookmarkService.ts" t="Include" />
+            <e p="ContentItemService.ts" t="Include" />
+            <e p="CourseService.ts" t="Include" />
+            <e p="EnrollmentService.ts" t="Include" />
+            <e p="index.ts" t="Include" />
+            <e p="PermissionService.ts" t="Include" />
+            <e p="RoleService.ts" t="Include" />
+            <e p="UserServices.ts" t="Include" />
+          </e>
+          <e p="Store.ts" t="Include" />
+          <e p="theme" t="Include">
+            <e p="theme.scss" t="Include" />
+          </e>
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="tempkey.rsa" t="Include" />
+        <e p="tsconfig.json" t="Include" />
+        <e p="Views" t="Include">
+          <e p="_ViewImports.cshtml" t="Include" />
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Home" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Login" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="Error.cshtml" t="Include" />
+          </e>
+        </e>
+        <e p="wwwroot" t="Include">
+          <e p="Images" t="Include">
+            <e p="Classroom.jpg" t="Include" />
+            <e p="Courses.jpg" t="Include" />
+            <e p="Jobs.jpg" t="Include" />
+            <e p="Logo.png" t="Include" />
+            <e p="Teach.jpg" t="Include" />
+          </e>
+          <e p="index.css" t="Include" />
+          <e p="index.js" t="Include" />
+          <e p="index.map" t="Include" />
+          <e p="login.css" t="Include" />
+          <e p="login.js" t="Include" />
+          <e p="login.map" t="Include" />
+        </e>
+        <e p="yarn.lock" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2017.3/resharper-host/local/Transient/ReSharperHost/v11/SolutionCaches/_IlluminateLms.-1404387692.00" t="ExcludeRecursive" />
+  </component>
+</project>

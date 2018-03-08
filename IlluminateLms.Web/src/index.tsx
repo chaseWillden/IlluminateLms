@@ -6,6 +6,8 @@ import createAppStore from './Store';
 import Routes from './Routes'
 import { LoadCurrentUser, GetCurrentUserRoles } from './Actions';
 import AppBar from './Components/AppBar';
+import { MuiThemeProvider } from 'material-ui';
+import theme from './theme/theme'
 
 interface Window{
 	[key: string]: any;
@@ -24,10 +26,10 @@ store.dispatch(GetCurrentUserRoles());
 ReactDOM.render(
 	<Provider store={store}>
 		<BrowserRouter>
-			<div>
+			<MuiThemeProvider theme={theme}>
 				<AppBar />
 				<Routes />
-			</div>
+			</MuiThemeProvider>
 		</BrowserRouter>
 	</Provider>,
 	document.getElementById('root')

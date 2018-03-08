@@ -4,6 +4,7 @@ using IlluminateLms.Business.Model;
 using IlluminateLms.Enterprise.Entities.Identity;
 using IlluminateLms.Enterprise.Interfaces;
 using IlluminateLms.Enterprise.Repositories;
+using IlluminateLms.Enterprise.Utilities;
 using Microsoft.Extensions.DependencyInjection;
 using Account = IlluminateLms.Business.Model.Account;
 using BookmarkedCourse = IlluminateLms.Business.Model.BookmarkedCourse;
@@ -25,6 +26,7 @@ namespace IlluminateLms.Business.Helpers
             services.AddScoped<IEnrollmentRepository, EnrollmentRepository>();
             services.AddScoped<IPermissionRepository, PermissionRepository>();
             services.AddScoped<IContentItemRepository, ContentItemRepository>();
+            services.AddScoped<IIlluminateLmsDatabaseInitalizer, IlluminateLmsDatabaseInitalizer>();
             
             // Business
             services.AddScoped<AccountBusiness>();

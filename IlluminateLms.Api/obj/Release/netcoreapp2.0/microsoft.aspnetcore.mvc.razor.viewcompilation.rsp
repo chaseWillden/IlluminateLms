@@ -1,0 +1,5 @@
+/Users/chasewillden/Documents/dev/IlluminateLms/IlluminateLms.Api
+--output-path=obj/Release/netcoreapp2.0/
+--application-name=IlluminateLms.Api
+--content-root=/Users/chasewillden/Documents/dev/IlluminateLms/IlluminateLms.Api
+--file=

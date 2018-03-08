@@ -2,7 +2,22 @@ import * as React from 'react';
 import { ListCoursesByAccountId } from '../../../../Actions';
 import { connect } from 'react-redux';
 import { Course } from '../../../../Models';
-import { NavLink } from 'react-router-dom';
+import { H3 } from '../../../../Containers/Headers';
+import { 
+  withStyles, 
+  Grid, 
+  TextField, 
+  List, 
+  ListItem, 
+  ListItemText 
+} from 'material-ui';
+import Link from './Link'
+
+const styles = () => ({
+  item: {
+    paddingLeft: 0
+  }
+})
 
 class CourseListContainer extends React.Component<any, any>{
 
@@ -39,24 +54,32 @@ class CourseListContainer extends React.Component<any, any>{
     const {q} = this.state;
 
     return (
-      <div className='uk-container'>
-        <h1>Course List</h1>
-        <div className="uk-margin">
-            <input className="uk-input" type="text" placeholder="Search..." autoFocus value={q} onChange={this.searchChange.bind(this)} />
-        </div>
-        <ul className="uk-list uk-list-divider">
-          {courses.map((course: Course) => (
-            <li key={course.courseId}>
-              <NavLink to={'/selected/' + course.courseId}>
-                <span>{course.courseCode} - {course.name}</span>
-              </NavLink>
-            </li>
-          ))}
-        </ul>
-      </div>
+      <Grid container>
+        <Grid item xs={2} />
+        <Grid item xs={8}>
+          <H3>Course Creator</H3>
+          <TextField
+            placeholder="Search..."
+            fullWidth
+            margin="normal"
+            autoFocus
+            value={q}
+            onChange={this.searchChange.bind(this)}
+          />
+          <List>
+            {courses.map((course: Course) => (
+              <ListItem key={course.courseId} className={this.props.classes.item}>
+                <ListItemText primary={<Link course={course} />} />
+              </ListItem>
+            ))}
+          </List>
+        </Grid>
+      </Grid>
     )
   }
 }
+
+
 
 const mapStateToProps = (state: any) => ({
   courses: state.courses
@@ -69,6 +92,6 @@ const mapDispatchToProps = (dispatch: any) => ({
 const CourseList = connect(
   mapStateToProps,
   mapDispatchToProps
-)(CourseListContainer);
+)(withStyles(styles)(CourseListContainer));
 
 export default CourseList;

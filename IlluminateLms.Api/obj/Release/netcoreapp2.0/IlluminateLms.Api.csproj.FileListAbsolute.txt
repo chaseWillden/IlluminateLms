@@ -1,0 +1,14 @@
+/Users/chasewillden/Documents/dev/IlluminateLms/IlluminateLms.Api/bin/Release/netcoreapp2.0/IlluminateLms.Api.deps.json
+/Users/chasewillden/Documents/dev/IlluminateLms/IlluminateLms.Api/bin/Release/netcoreapp2.0/IlluminateLms.Api.runtimeconfig.json
+/Users/chasewillden/Documents/dev/IlluminateLms/IlluminateLms.Api/bin/Release/netcoreapp2.0/IlluminateLms.Api.runtimeconfig.dev.json
+/Users/chasewillden/Documents/dev/IlluminateLms/IlluminateLms.Api/bin/Release/netcoreapp2.0/IlluminateLms.Api.dll
+/Users/chasewillden/Documents/dev/IlluminateLms/IlluminateLms.Api/bin/Release/netcoreapp2.0/IlluminateLms.Api.pdb
+/Users/chasewillden/Documents/dev/IlluminateLms/IlluminateLms.Api/bin/Release/netcoreapp2.0/IlluminateLms.Business.dll
+/Users/chasewillden/Documents/dev/IlluminateLms/IlluminateLms.Api/bin/Release/netcoreapp2.0/IlluminateLms.Enterprise.dll
+/Users/chasewillden/Documents/dev/IlluminateLms/IlluminateLms.Api/bin/Release/netcoreapp2.0/IlluminateLms.Business.pdb
+/Users/chasewillden/Documents/dev/IlluminateLms/IlluminateLms.Api/bin/Release/netcoreapp2.0/IlluminateLms.Enterprise.pdb
+/Users/chasewillden/Documents/dev/IlluminateLms/IlluminateLms.Api/obj/Release/netcoreapp2.0/IlluminateLms.Api.csproj.CoreCompileInputs.cache
+/Users/chasewillden/Documents/dev/IlluminateLms/IlluminateLms.Api/obj/Release/netcoreapp2.0/IlluminateLms.Api.AssemblyInfoInputs.cache
+/Users/chasewillden/Documents/dev/IlluminateLms/IlluminateLms.Api/obj/Release/netcoreapp2.0/IlluminateLms.Api.AssemblyInfo.cs
+/Users/chasewillden/Documents/dev/IlluminateLms/IlluminateLms.Api/obj/Release/netcoreapp2.0/IlluminateLms.Api.dll
+/Users/chasewillden/Documents/dev/IlluminateLms/IlluminateLms.Api/obj/Release/netcoreapp2.0/IlluminateLms.Api.pdb

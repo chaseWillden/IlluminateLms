@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e8b3c618-b629-4ce5-bda0-5c67d2eac568" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Api/Startup.cs" afterPath="$PROJECT_DIR$/IlluminateLms.Api/Startup.cs" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Api/appsettings.json" afterPath="$PROJECT_DIR$/IlluminateLms.Api/appsettings.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Api/bin/Debug/netcoreapp2.0/IlluminateLms.Api.dll" afterPath="$PROJECT_DIR$/IlluminateLms.Api/bin/Debug/netcoreapp2.0/IlluminateLms.Api.dll" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Api/bin/Debug/netcoreapp2.0/IlluminateLms.Api.pdb" afterPath="$PROJECT_DIR$/IlluminateLms.Api/bin/Debug/netcoreapp2.0/IlluminateLms.Api.pdb" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Api/bin/Debug/netcoreapp2.0/IlluminateLms.Business.dll" afterPath="$PROJECT_DIR$/IlluminateLms.Api/bin/Debug/netcoreapp2.0/IlluminateLms.Business.dll" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Api/bin/Debug/netcoreapp2.0/IlluminateLms.Business.pdb" afterPath="$PROJECT_DIR$/IlluminateLms.Api/bin/Debug/netcoreapp2.0/IlluminateLms.Business.pdb" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Api/obj/Debug/netcoreapp2.0/IlluminateLms.Api.dll" afterPath="$PROJECT_DIR$/IlluminateLms.Api/obj/Debug/netcoreapp2.0/IlluminateLms.Api.dll" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Api/obj/Debug/netcoreapp2.0/IlluminateLms.Api.pdb" afterPath="$PROJECT_DIR$/IlluminateLms.Api/obj/Debug/netcoreapp2.0/IlluminateLms.Api.pdb" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Business.Test/bin/Debug/netcoreapp2.0/IlluminateLms.Business.Test.dll" afterPath="$PROJECT_DIR$/IlluminateLms.Business.Test/bin/Debug/netcoreapp2.0/IlluminateLms.Business.Test.dll" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Business.Test/bin/Debug/netcoreapp2.0/IlluminateLms.Business.Test.pdb" afterPath="$PROJECT_DIR$/IlluminateLms.Business.Test/bin/Debug/netcoreapp2.0/IlluminateLms.Business.Test.pdb" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Business.Test/bin/Debug/netcoreapp2.0/IlluminateLms.Business.Test.runtimeconfig.dev.json" afterPath="$PROJECT_DIR$/IlluminateLms.Business.Test/bin/Debug/netcoreapp2.0/IlluminateLms.Business.Test.runtimeconfig.dev.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Business.Test/bin/Debug/netcoreapp2.0/IlluminateLms.Business.dll" afterPath="$PROJECT_DIR$/IlluminateLms.Business.Test/bin/Debug/netcoreapp2.0/IlluminateLms.Business.dll" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Business.Test/bin/Debug/netcoreapp2.0/IlluminateLms.Business.pdb" afterPath="$PROJECT_DIR$/IlluminateLms.Business.Test/bin/Debug/netcoreapp2.0/IlluminateLms.Business.pdb" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Business.Test/bin/Debug/netcoreapp2.0/IlluminateLms.Enterprise.dll" afterPath="$PROJECT_DIR$/IlluminateLms.Business.Test/bin/Debug/netcoreapp2.0/IlluminateLms.Enterprise.dll" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Business.Test/bin/Debug/netcoreapp2.0/IlluminateLms.Enterprise.pdb" afterPath="$PROJECT_DIR$/IlluminateLms.Business.Test/bin/Debug/netcoreapp2.0/IlluminateLms.Enterprise.pdb" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Business.Test/obj/Debug/netcoreapp2.0/IlluminateLms.Business.Test.csproj.CoreCompileInputs.cache" afterPath="$PROJECT_DIR$/IlluminateLms.Business.Test/obj/Debug/netcoreapp2.0/IlluminateLms.Business.Test.csproj.CoreCompileInputs.cache" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Business.Test/obj/Debug/netcoreapp2.0/IlluminateLms.Business.Test.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/IlluminateLms.Business.Test/obj/Debug/netcoreapp2.0/IlluminateLms.Business.Test.csproj.FileListAbsolute.txt" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Business.Test/obj/Debug/netcoreapp2.0/IlluminateLms.Business.Test.dll" afterPath="$PROJECT_DIR$/IlluminateLms.Business.Test/obj/Debug/netcoreapp2.0/IlluminateLms.Business.Test.dll" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Business.Test/obj/Debug/netcoreapp2.0/IlluminateLms.Business.Test.pdb" afterPath="$PROJECT_DIR$/IlluminateLms.Business.Test/obj/Debug/netcoreapp2.0/IlluminateLms.Business.Test.pdb" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Business/Helpers/CommonConfig.cs" afterPath="$PROJECT_DIR$/IlluminateLms.Business/Helpers/CommonConfig.cs" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Business/bin/Debug/netcoreapp2.0/IlluminateLms.Business.dll" afterPath="$PROJECT_DIR$/IlluminateLms.Business/bin/Debug/netcoreapp2.0/IlluminateLms.Business.dll" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Business/bin/Debug/netcoreapp2.0/IlluminateLms.Business.pdb" afterPath="$PROJECT_DIR$/IlluminateLms.Business/bin/Debug/netcoreapp2.0/IlluminateLms.Business.pdb" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Business/bin/Debug/netstandard2.0/IlluminateLms.Business.dll" afterPath="$PROJECT_DIR$/IlluminateLms.Business/bin/Debug/netstandard2.0/IlluminateLms.Business.dll" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Business/bin/Debug/netstandard2.0/IlluminateLms.Business.pdb" afterPath="$PROJECT_DIR$/IlluminateLms.Business/bin/Debug/netstandard2.0/IlluminateLms.Business.pdb" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Business/obj/Debug/netcoreapp2.0/IlluminateLms.Business.dll" afterPath="$PROJECT_DIR$/IlluminateLms.Business/obj/Debug/netcoreapp2.0/IlluminateLms.Business.dll" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Business/obj/Debug/netcoreapp2.0/IlluminateLms.Business.pdb" afterPath="$PROJECT_DIR$/IlluminateLms.Business/obj/Debug/netcoreapp2.0/IlluminateLms.Business.pdb" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Business/obj/Debug/netstandard2.0/IlluminateLms.Business.dll" afterPath="$PROJECT_DIR$/IlluminateLms.Business/obj/Debug/netstandard2.0/IlluminateLms.Business.dll" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Business/obj/Debug/netstandard2.0/IlluminateLms.Business.pdb" afterPath="$PROJECT_DIR$/IlluminateLms.Business/obj/Debug/netstandard2.0/IlluminateLms.Business.pdb" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Enterprise/obj/IlluminateLms.Enterprise.csproj.nuget.cache" afterPath="$PROJECT_DIR$/IlluminateLms.Enterprise/obj/IlluminateLms.Enterprise.csproj.nuget.cache" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Enterprise/obj/project.assets.json" afterPath="$PROJECT_DIR$/IlluminateLms.Enterprise/obj/project.assets.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/010b53f9102becb5c3900451503aa55e.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/010b53f9102becb5c3900451503aa55e.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/02b4c031a5889f914c8df3903b77ba11.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/02b4c031a5889f914c8df3903b77ba11.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/0460165b8498596808bf631d9982beca.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/0460165b8498596808bf631d9982beca.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/04a5275bcca9cdeef652996705bb85d2.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/04a5275bcca9cdeef652996705bb85d2.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/05f20aa92d5d2006c92462f89a270775.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/05f20aa92d5d2006c92462f89a270775.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/061da9c4cdb0efdbd7882881e297eca5.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/061da9c4cdb0efdbd7882881e297eca5.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/064c83bcf62f8fd6c7ab4dc2576d674b.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/064c83bcf62f8fd6c7ab4dc2576d674b.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/06c89cfe35800ff9621099563f8a77b2.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/06c89cfe35800ff9621099563f8a77b2.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/073139ee14f64e005db54e250a4190cd.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/073139ee14f64e005db54e250a4190cd.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/07c21487bcda2fa411201e1ea1d64204.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/07c21487bcda2fa411201e1ea1d64204.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/08179457012cd6ec93ff9ddc0b0c29eb.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/08179457012cd6ec93ff9ddc0b0c29eb.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/08d65af0d7da105466e7c49aa4673471.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/08d65af0d7da105466e7c49aa4673471.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/09266c0f9678bc13c5f19564204515c4.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/09266c0f9678bc13c5f19564204515c4.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/0972a330936713400dffe2e309a753ba.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/0972a330936713400dffe2e309a753ba.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/0a0d490c0066a70a2158603aca0ee4ae.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/0a0d490c0066a70a2158603aca0ee4ae.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/0b199262486f1419bafe75384763c471.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/0b199262486f1419bafe75384763c471.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/0c0e4520ec1e200293b31c62d96675f5.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/0c0e4520ec1e200293b31c62d96675f5.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/0c87ca72c0f74e6de3a4c72d07dd7a01.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/0c87ca72c0f74e6de3a4c72d07dd7a01.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/0e265432b7eabc0640a11952ea63bd93.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/0e265432b7eabc0640a11952ea63bd93.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/0f065f0931c9d3dc5c1ca3331b593523.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/0f065f0931c9d3dc5c1ca3331b593523.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/0f11f13f6b7e27fbde6b68ea6e302e11.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/0f11f13f6b7e27fbde6b68ea6e302e11.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/0f1c0055afc3538a3af4e4a00a090cbd.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/0f1c0055afc3538a3af4e4a00a090cbd.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/0f60c4cdde56df5f86f3fe37a6cb7f21.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/0f60c4cdde56df5f86f3fe37a6cb7f21.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/0f61fb52b28508ac47da855612d5b386.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/0f61fb52b28508ac47da855612d5b386.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/134770713eefaaa3fae1ae4254e627b6.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/134770713eefaaa3fae1ae4254e627b6.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/145ce9796e6a4a2e3f913da80289ddd9.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/145ce9796e6a4a2e3f913da80289ddd9.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/152343e2b2f3c15a4d70ba337d6f862b.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/152343e2b2f3c15a4d70ba337d6f862b.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/15ded8128e9bde292f90f56375c7d712.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/15ded8128e9bde292f90f56375c7d712.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/1668bc278b2bf40df79d7542bd8ef2a1.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/1668bc278b2bf40df79d7542bd8ef2a1.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/181656fb874e39bddddd43a4baab8a03.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/181656fb874e39bddddd43a4baab8a03.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/18ed0bcbb7100a680079d11ccbd99f7a.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/18ed0bcbb7100a680079d11ccbd99f7a.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/192e4e606a20e0706bab43c299c5b202.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/192e4e606a20e0706bab43c299c5b202.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/1a5b7b2f4f5e6450da7ea4b2da985c71.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/1a5b7b2f4f5e6450da7ea4b2da985c71.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/1affd67129d2771f7dc37ceec656e761.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/1affd67129d2771f7dc37ceec656e761.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/1b5b10bb96563422175d6f187644fa8a.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/1b5b10bb96563422175d6f187644fa8a.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/1bb22a0cc0bbc84a420a1ca0563dd7df.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/1bb22a0cc0bbc84a420a1ca0563dd7df.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/1c44c086f39ce966b81812c82010b7ac.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/1c44c086f39ce966b81812c82010b7ac.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/1d0b4c1404c8572bffe3f93cc2b1f266.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/1d0b4c1404c8572bffe3f93cc2b1f266.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/1d1952b4b122229a8a64109e2ab2bafb.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/1d1952b4b122229a8a64109e2ab2bafb.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/1e33530d8d613d74038cf9ab604dbafc.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/1e33530d8d613d74038cf9ab604dbafc.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/1f6d5dd2f574b45002702aa582913173.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/1f6d5dd2f574b45002702aa582913173.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/1fffe845dc75aa83767daf64b8d09ecf.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/1fffe845dc75aa83767daf64b8d09ecf.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/200760095abdbc767471c6b418c3d998.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/200760095abdbc767471c6b418c3d998.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/203cda17a5a983bb6db05de21784a6db.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/203cda17a5a983bb6db05de21784a6db.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/20958ff643abaab0e581ba44aa39c8c6.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/20958ff643abaab0e581ba44aa39c8c6.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/2098f63828661e444839981428c469c8.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/2098f63828661e444839981428c469c8.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/20f8f41e6ad0e050251ead668271219a.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/20f8f41e6ad0e050251ead668271219a.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/2138ac7bdc49dbd9a2680742281b1472.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/2138ac7bdc49dbd9a2680742281b1472.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/21b035e8a23e93774ef57a1c833a22de.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/21b035e8a23e93774ef57a1c833a22de.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/22071d2a49ca2a70960d7a297dde6a38.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/22071d2a49ca2a70960d7a297dde6a38.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/228038cd07e139fe5f85dc85b2d8961a.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/228038cd07e139fe5f85dc85b2d8961a.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/2318d55f906c388311fd870ee4734ae6.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/2318d55f906c388311fd870ee4734ae6.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/2398a842813b0a7ae12903f4e3606298.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/2398a842813b0a7ae12903f4e3606298.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/24ab5f5bfce6c2dc57a0d964a0723c77.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/24ab5f5bfce6c2dc57a0d964a0723c77.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/2808b9db82394406102c9dbaf80edb2b.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/2808b9db82394406102c9dbaf80edb2b.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/293012241e21114c35adbb3798c46ab2.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/293012241e21114c35adbb3798c46ab2.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/2972da867d39b8f39ca0712fc633c890.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/2972da867d39b8f39ca0712fc633c890.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/2c24060d5a234bf72dc6d9d942cd6992.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/2c24060d5a234bf72dc6d9d942cd6992.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/2c5604d532ed04be3684f158528a8fb7.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/2c5604d532ed04be3684f158528a8fb7.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/2ce42e267c8f57eeecf5a65caabd05d4.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/2ce42e267c8f57eeecf5a65caabd05d4.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/2da8350b77e01dcd85781f685a5c5f12.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/2da8350b77e01dcd85781f685a5c5f12.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/2e877dc3260e91f84bd531175b579e93.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/2e877dc3260e91f84bd531175b579e93.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/30abcef56295fb903696c18905cc681a.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/30abcef56295fb903696c18905cc681a.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/30b94e16fb84be972acb51f82117a338.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/30b94e16fb84be972acb51f82117a338.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/3189375283609a644e64c20bc12d112e.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/3189375283609a644e64c20bc12d112e.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/322f970b9c4182a59aee8309305d271c.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/322f970b9c4182a59aee8309305d271c.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/329a3661c620483ccc4f3b688df73259.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/329a3661c620483ccc4f3b688df73259.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/32b6ac1b7992a00fa2c463e58cc4b76f.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/32b6ac1b7992a00fa2c463e58cc4b76f.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/331de733fce7fdfef89161485a2a2ba2.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/331de733fce7fdfef89161485a2a2ba2.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/333cacd785f2554cc4ba3782d3e115d9.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/333cacd785f2554cc4ba3782d3e115d9.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/335623860765c1602684cf4f92c4317e.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/335623860765c1602684cf4f92c4317e.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/3358b0aaae94d225d1a6ab2d83febb4f.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/3358b0aaae94d225d1a6ab2d83febb4f.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/33c118d44f31d26a6dd84e6d3e9de288.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/33c118d44f31d26a6dd84e6d3e9de288.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/342307603b7be37c778f7be21b1b3815.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/342307603b7be37c778f7be21b1b3815.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/36e267bfa5457ddc1f02e61ef2e631f5.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/36e267bfa5457ddc1f02e61ef2e631f5.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/374786acd92cf029bfa94bcc984ff10b.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/374786acd92cf029bfa94bcc984ff10b.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/376beafe97e09cedcf68cd9fbd69022a.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/376beafe97e09cedcf68cd9fbd69022a.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/377f784f5f9932d51b763309f9864158.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/377f784f5f9932d51b763309f9864158.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/37828cf13278253dab0a88c37ad0529c.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/37828cf13278253dab0a88c37ad0529c.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/37891a86f1c9fa581375dc573f69b052.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/37891a86f1c9fa581375dc573f69b052.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/3830179cb7b35dff35fdc5f28bf23aa2.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/3830179cb7b35dff35fdc5f28bf23aa2.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/391ed4d1aa69a4c7e08515be19400e09.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/391ed4d1aa69a4c7e08515be19400e09.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/3b00dee4a8fe2c383550362ac86ef245.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/3b00dee4a8fe2c383550362ac86ef245.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/3c0531eff7d26684e1770df00baaa64b.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/3c0531eff7d26684e1770df00baaa64b.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/3cd67188e2090c10ee502d05bae44044.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/3cd67188e2090c10ee502d05bae44044.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/3e93c7e4a2c962e7d24d22770a9653e3.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/3e93c7e4a2c962e7d24d22770a9653e3.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/3fb1e7c8a9ee73f206078cae0d2faff8.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/3fb1e7c8a9ee73f206078cae0d2faff8.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/3ffafcbc4abebd3b7adc742aef6fb109.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/3ffafcbc4abebd3b7adc742aef6fb109.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/4017b7040ab533e3ece5780b55fc585f.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/4017b7040ab533e3ece5780b55fc585f.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/406eb043cb11fc12acf69de154e23a5d.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/406eb043cb11fc12acf69de154e23a5d.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/41d41b89a3418be97c66213fe1573806.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/41d41b89a3418be97c66213fe1573806.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/427674c43c33e14939821aeaf67bddb7.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/427674c43c33e14939821aeaf67bddb7.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/42c41140ffdc79b847c9f94d5633d734.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/42c41140ffdc79b847c9f94d5633d734.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/4329690593ca8de1bb49ab67de1f839e.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/4329690593ca8de1bb49ab67de1f839e.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/4408f9d0863d2eb5a72b39006c218a67.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/4408f9d0863d2eb5a72b39006c218a67.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/44f1907998d475ee88a7f198ebac9d23.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/44f1907998d475ee88a7f198ebac9d23.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/46059c4aeeda13ef86836a2f0b98f282.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/46059c4aeeda13ef86836a2f0b98f282.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/464f02370a81ac14c944ec5725779c53.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/464f02370a81ac14c944ec5725779c53.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/46733707292cb0550eaba057cf3c5c91.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/46733707292cb0550eaba057cf3c5c91.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/46bd7f8593753afd08af339886f2b59b.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/46bd7f8593753afd08af339886f2b59b.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/46eac2fc4c5fca3bb51709446a46a046.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/46eac2fc4c5fca3bb51709446a46a046.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/48bcf6fdf715cd0ee0e4570ffe20b1cb.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/48bcf6fdf715cd0ee0e4570ffe20b1cb.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/4916d3cc49c225f9a88f6929c33def09.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/4916d3cc49c225f9a88f6929c33def09.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/495dda1f059cfeabe3b797643cdac8f6.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/495dda1f059cfeabe3b797643cdac8f6.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/49710747a3026ed2f93ea3c40133f9f4.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/49710747a3026ed2f93ea3c40133f9f4.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/49fb512f590786a9151ec85fab13cb13.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/49fb512f590786a9151ec85fab13cb13.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/4c0eabcbe708437ed95cf0628aaec3e7.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/4c0eabcbe708437ed95cf0628aaec3e7.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/4c1cfff4405394cba59a5d41d806af1f.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/4c1cfff4405394cba59a5d41d806af1f.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/4cf3a8b04d912c07476c2505d58a258e.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/4cf3a8b04d912c07476c2505d58a258e.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/4d3ef7424247258242bf2b654dfc3c6e.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/4d3ef7424247258242bf2b654dfc3c6e.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/4d495e10c3ae6bb48ba4655ec7108efb.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/4d495e10c3ae6bb48ba4655ec7108efb.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/4de7aaa2ecd63eda25f68843e80c3f0c.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/4de7aaa2ecd63eda25f68843e80c3f0c.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/50ad47a259edef61c3d83213aaebb8ae.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/50ad47a259edef61c3d83213aaebb8ae.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/512bd22877445d58e547360d62a424bc.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/512bd22877445d58e547360d62a424bc.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/518ed5a8574a300b1eb212f3435bf637.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/518ed5a8574a300b1eb212f3435bf637.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/5284ed2d5dad854767721a78d37b564b.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/5284ed2d5dad854767721a78d37b564b.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/536ab68f4c602326473cf935d85d0bf0.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/536ab68f4c602326473cf935d85d0bf0.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/53f6957f176f3ca99e581985aa076da5.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/53f6957f176f3ca99e581985aa076da5.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/54a342d924ad5eaa96dc531ae9be9e57.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/54a342d924ad5eaa96dc531ae9be9e57.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/568fdf0ef4a4d20d5a54c7bedecaa0b4.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/568fdf0ef4a4d20d5a54c7bedecaa0b4.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/56dd0ac5a94ae942cd64b88358814f52.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/56dd0ac5a94ae942cd64b88358814f52.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/58d210a6e1476124a806d8a13b486cd9.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/58d210a6e1476124a806d8a13b486cd9.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/58deccd541364395b5271a7576987ac4.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/58deccd541364395b5271a7576987ac4.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/58e06db003acb2dcfd069c7999683a4f.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/58e06db003acb2dcfd069c7999683a4f.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/58ebe852e6999eedcbbcc8df2bd5180b.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/58ebe852e6999eedcbbcc8df2bd5180b.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/59c58513b104a35dce70f095c431fe41.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/59c58513b104a35dce70f095c431fe41.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/5d1cc1a87395a1c6ff576687cefeb321.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/5d1cc1a87395a1c6ff576687cefeb321.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/5d64c9fd2c95263df113460307988a0b.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/5d64c9fd2c95263df113460307988a0b.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/5e64c658ca73ee80b7f9557317eaa1e5.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/5e64c658ca73ee80b7f9557317eaa1e5.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/5ea4fb2298f732ec928639e60882d544.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/5ea4fb2298f732ec928639e60882d544.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/5f32dbc8d2e85c57cc66f625e5dbf0a8.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/5f32dbc8d2e85c57cc66f625e5dbf0a8.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/5f422f19b6ad55c0775620244fd5bf3e.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/5f422f19b6ad55c0775620244fd5bf3e.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/6165f6273299ae6f0e9c718fade1d8a4.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/6165f6273299ae6f0e9c718fade1d8a4.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/61f34398de47d95ac2a3eed0775ebc54.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/61f34398de47d95ac2a3eed0775ebc54.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/625d10f49f185ea52a8e6e1466e4fd27.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/625d10f49f185ea52a8e6e1466e4fd27.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/6274fca6933f89a76897a0cd22fbaab7.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/6274fca6933f89a76897a0cd22fbaab7.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/63bbbef335f6329fb5286a1b9a08fb63.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/63bbbef335f6329fb5286a1b9a08fb63.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/64a5b141bf4e3051d2a7759f49a851bd.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/64a5b141bf4e3051d2a7759f49a851bd.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/6543bc85c9a9cef4f48d25968387aa89.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/6543bc85c9a9cef4f48d25968387aa89.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/658a4a24435924276cd494eebe3140a5.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/658a4a24435924276cd494eebe3140a5.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/66d884ea8f0af72d00662b1af41bbee9.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/66d884ea8f0af72d00662b1af41bbee9.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/66ef807230ecd99b499291e396440573.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/66ef807230ecd99b499291e396440573.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/67aad294ada485c41924503333f919d8.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/67aad294ada485c41924503333f919d8.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/68ebcb6d91bed0656eab96c6c331a3e6.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/68ebcb6d91bed0656eab96c6c331a3e6.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/694ed34cfdf9ce40ac66d8e5e67e29cb.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/694ed34cfdf9ce40ac66d8e5e67e29cb.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/69824b234303f4d80b64b81a34bfcb1f.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/69824b234303f4d80b64b81a34bfcb1f.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/6b96147e6225870b6362e70e1163fcfb.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/6b96147e6225870b6362e70e1163fcfb.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/6c8632093d97e7db842bae8e6964fd71.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/6c8632093d97e7db842bae8e6964fd71.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/6d9a6ef0cb33accd05304650a492e7ba.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/6d9a6ef0cb33accd05304650a492e7ba.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/6dae81848285daef4b5047803f9f4315.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/6dae81848285daef4b5047803f9f4315.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/6eff166aa3490bcf277c2bdd156c8101.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/6eff166aa3490bcf277c2bdd156c8101.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/702cbcb8e4971997f1a02f828be8c49a.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/702cbcb8e4971997f1a02f828be8c49a.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/713f4dcb0d347f4784863c5f05ea5772.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/713f4dcb0d347f4784863c5f05ea5772.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/715f43971c5e1425dc5a1f36834aaf63.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/715f43971c5e1425dc5a1f36834aaf63.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/723109917922875984158de740999da9.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/723109917922875984158de740999da9.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/74f23bb89bb2003ec721c5da27bd3705.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/74f23bb89bb2003ec721c5da27bd3705.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/7564bbf362c03cf617aad4a05fe281e8.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/7564bbf362c03cf617aad4a05fe281e8.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/76d336132ec06db68bc31195983086af.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/76d336132ec06db68bc31195983086af.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/770b872dcb1335c70b2e9b38babd773e.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/770b872dcb1335c70b2e9b38babd773e.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/771b1b9596328e6b03c56568f021634e.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/771b1b9596328e6b03c56568f021634e.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/792a35543396c27337a509292c571bf3.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/792a35543396c27337a509292c571bf3.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/797f5194a11e95e1bf0787e67854cdd3.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/797f5194a11e95e1bf0787e67854cdd3.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/7ab0f919cd6b59fe38c39e00395f6ddd.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/7ab0f919cd6b59fe38c39e00395f6ddd.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/7c1732594cd7cccad4a5f9d6be6b340a.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/7c1732594cd7cccad4a5f9d6be6b340a.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/7d39c2c93135b134af2861fe0033fea3.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/7d39c2c93135b134af2861fe0033fea3.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/7dd4f44f7622c4957637df923cc588dc.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/7dd4f44f7622c4957637df923cc588dc.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/7e36bc93ea2026243a0b680149faf7ce.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/7e36bc93ea2026243a0b680149faf7ce.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/7fadebdff0b712375777a986ff3bf725.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/7fadebdff0b712375777a986ff3bf725.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/7fb365603a11b27aa9c4e3d19bd22167.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/7fb365603a11b27aa9c4e3d19bd22167.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/7ff077eecb01b4cba43aaeda838a48dc.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/7ff077eecb01b4cba43aaeda838a48dc.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/806bb24bd52843cd6c80584ecd8cc1f7.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/806bb24bd52843cd6c80584ecd8cc1f7.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/80f3aa0848a96a58fafd21ffa9c29440.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/80f3aa0848a96a58fafd21ffa9c29440.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/8120a89032a8b0a4f6830546bc970922.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/8120a89032a8b0a4f6830546bc970922.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/81579abf81179087e4ba8ff1b04506dc.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/81579abf81179087e4ba8ff1b04506dc.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/828e274b3ad305f8ba49376e80eec1fc.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/828e274b3ad305f8ba49376e80eec1fc.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/83592c1bff18a3cd88e8473e1fb6d5e5.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/83592c1bff18a3cd88e8473e1fb6d5e5.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/85960c6712e843db3b1d2d4504ec3d09.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/85960c6712e843db3b1d2d4504ec3d09.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/876675c3b10572097fbe14c4f9961cc7.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/876675c3b10572097fbe14c4f9961cc7.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/878bcd746c17b8eee18d2dcce2f17b97.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/878bcd746c17b8eee18d2dcce2f17b97.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/88b58ddb38519bcbbd82157256abeb13.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/88b58ddb38519bcbbd82157256abeb13.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/897744770a922aa41219efd7fff4be39.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/897744770a922aa41219efd7fff4be39.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/8c1f793dd266d6fe0e09ae72771f3cf2.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/8c1f793dd266d6fe0e09ae72771f3cf2.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/8ce4b27e1e211b137db6bce727b81a82.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/8ce4b27e1e211b137db6bce727b81a82.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/8d2aed3f31d7563c5279f67527471477.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/8d2aed3f31d7563c5279f67527471477.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/8d81d8bf2369a4803eaea223cee6ac30.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/8d81d8bf2369a4803eaea223cee6ac30.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/8d9339cfdd2913ecbf3e2d61ca5be8b8.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/8d9339cfdd2913ecbf3e2d61ca5be8b8.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/8ed68b4ea37c18fbf81a9b5451aae8f6.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/8ed68b4ea37c18fbf81a9b5451aae8f6.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/8f27ba28bdda17aa701f0b9786d09f1a.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/8f27ba28bdda17aa701f0b9786d09f1a.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/903a8355f31c993f5bcb220e4f2ba2d3.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/903a8355f31c993f5bcb220e4f2ba2d3.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/906ff9eda6c2d65c1779bb4c04a41bd5.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/906ff9eda6c2d65c1779bb4c04a41bd5.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/910c9b4c9e4c1b544f340964e3822099.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/910c9b4c9e4c1b544f340964e3822099.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/9227e661b7fd462f317570528ec2c45c.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/9227e661b7fd462f317570528ec2c45c.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/92cdffc405b0f5be5bd805ecdc7827e0.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/92cdffc405b0f5be5bd805ecdc7827e0.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/9304c3326682055cd6c52659a8da0455.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/9304c3326682055cd6c52659a8da0455.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/93af0a1e4727f18b74b467a6c89069eb.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/93af0a1e4727f18b74b467a6c89069eb.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/93f80d470a798ee6cd18ffc075b19576.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/93f80d470a798ee6cd18ffc075b19576.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/9467515806a62dca53cb3ba3905cd2e5.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/9467515806a62dca53cb3ba3905cd2e5.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/956cc7468bebde44a6e1ef7e3996e2a0.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/956cc7468bebde44a6e1ef7e3996e2a0.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/9756367edec965e2b14480fe61de32c6.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/9756367edec965e2b14480fe61de32c6.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/980a21edc23abc6a81d0f9f4b4d73631.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/980a21edc23abc6a81d0f9f4b4d73631.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/9a784d2d79cdc4b61f2d517aecc3f077.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/9a784d2d79cdc4b61f2d517aecc3f077.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/9bf94f535fe3dd7c05c37c53a8095b55.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/9bf94f535fe3dd7c05c37c53a8095b55.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/9d212dc746d64b779433764092e606cc.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/9d212dc746d64b779433764092e606cc.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/9d4742556a37b502b0b3ece33590344a.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/9d4742556a37b502b0b3ece33590344a.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/9e3bcb51b2856ac5dd110a5599f5bcbc.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/9e3bcb51b2856ac5dd110a5599f5bcbc.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/9e82ec24cc6da98e35ab794e91fde9e4.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/9e82ec24cc6da98e35ab794e91fde9e4.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/9e8e1c316d8bed1d28189f50adf0acde.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/9e8e1c316d8bed1d28189f50adf0acde.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/9e976347c4156be96878de9e860c8a75.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/9e976347c4156be96878de9e860c8a75.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/9f0b0a22517e9ef727c82108838ae1ec.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/9f0b0a22517e9ef727c82108838ae1ec.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/a02ef2fd291cdef7031085ad320fad0b.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/a02ef2fd291cdef7031085ad320fad0b.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/a033ff86fce17919ab77e09adccbeb5c.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/a033ff86fce17919ab77e09adccbeb5c.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/a03d71e5bb4de56a3d2f28dd8726f818.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/a03d71e5bb4de56a3d2f28dd8726f818.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/a1bf1112421de78f95107e7d29ae1ac2.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/a1bf1112421de78f95107e7d29ae1ac2.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/a46517ddc7803a3767e57308a751f835.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/a46517ddc7803a3767e57308a751f835.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/a4b0803fad4a72aaa81c75e72a1f11fb.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/a4b0803fad4a72aaa81c75e72a1f11fb.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/a6d41bc2c5512d99fc6142804ce79327.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/a6d41bc2c5512d99fc6142804ce79327.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/a72448f2e015f1df49d32cec8f51f6c8.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/a72448f2e015f1df49d32cec8f51f6c8.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/a77c097e2495c1193afd89a69a3f590f.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/a77c097e2495c1193afd89a69a3f590f.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/a79c4cd0bbd5586e4c024ee449fe90f0.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/a79c4cd0bbd5586e4c024ee449fe90f0.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/a7f87817dfda9043c7ba50f439288e2a.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/a7f87817dfda9043c7ba50f439288e2a.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/a91537e998ad03349d603b85a164f042.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/a91537e998ad03349d603b85a164f042.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/a92e6a859c6098793361873e19c8a203.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/a92e6a859c6098793361873e19c8a203.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/a949a9cb783e8a92036361115f580388.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/a949a9cb783e8a92036361115f580388.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/aa6c2601498d5f141569243111beefc4.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/aa6c2601498d5f141569243111beefc4.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/abe691dbf2a2b75be275f7514f16dbd8.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/abe691dbf2a2b75be275f7514f16dbd8.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/ad796936872ac987fb88ba882c340a18.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/ad796936872ac987fb88ba882c340a18.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/ae59731d3f3ca467b191075e6f599d49.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/ae59731d3f3ca467b191075e6f599d49.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/af07ccf1bdf477cc2fd0f505da026a4f.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/af07ccf1bdf477cc2fd0f505da026a4f.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/afa9ff82ad286646deee8a976a5c4525.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/afa9ff82ad286646deee8a976a5c4525.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/afaf7bfc4e4bb7f8e05cc8b49cb06bce.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/afaf7bfc4e4bb7f8e05cc8b49cb06bce.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/b0b57bfe39b312c8b2ac107d4ee403f8.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/b0b57bfe39b312c8b2ac107d4ee403f8.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/b2bacdcf753db6f1a1986f79cc5b83da.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/b2bacdcf753db6f1a1986f79cc5b83da.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/b3086eeca06d57bf7e2c00263e5e3359.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/b3086eeca06d57bf7e2c00263e5e3359.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/b342f48a96537f28ab47faf49f2d90d5.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/b342f48a96537f28ab47faf49f2d90d5.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/b3db57cadf6be1ad09e5d92cf40433ae.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/b3db57cadf6be1ad09e5d92cf40433ae.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/b400e212f501dedd2b328b233a3108bf.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/b400e212f501dedd2b328b233a3108bf.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/b4967e77a5057102fcc19d2b3bf4a41b.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/b4967e77a5057102fcc19d2b3bf4a41b.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/b4af188efcbcef400ecadbcf4db3317a.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/b4af188efcbcef400ecadbcf4db3317a.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/b59bbae1f14fa1bcf7b5f0eaba59ae33.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/b59bbae1f14fa1bcf7b5f0eaba59ae33.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/b5e7866c8734892e84e4f0f4bb525852.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/b5e7866c8734892e84e4f0f4bb525852.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/b5fc2b1341ec157ab9e442fca23bb34b.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/b5fc2b1341ec157ab9e442fca23bb34b.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/b6f9087626806680bdc59807b2505b96.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/b6f9087626806680bdc59807b2505b96.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/b87e78d75176f817a9a10d81a25d8281.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/b87e78d75176f817a9a10d81a25d8281.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/ba18d6dac8c10f74cae4ea7d5e8d466b.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/ba18d6dac8c10f74cae4ea7d5e8d466b.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/bacb3e653e1bc1d35ce8964f884e827e.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/bacb3e653e1bc1d35ce8964f884e827e.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/bae6b64762e4024ad3ce001e4b492aba.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/bae6b64762e4024ad3ce001e4b492aba.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/bb5ac36cf4b5950c3a82a685ba228138.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/bb5ac36cf4b5950c3a82a685ba228138.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/bbb497f103c932d6474503417e42da38.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/bbb497f103c932d6474503417e42da38.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/bd05abb71b06ee3e91ff19fd61a662b9.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/bd05abb71b06ee3e91ff19fd61a662b9.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/be2d491a46752fa0c5729df51c391ae6.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/be2d491a46752fa0c5729df51c391ae6.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/bf19cd6cc7ef98229e9f5d3d7a6542fe.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/bf19cd6cc7ef98229e9f5d3d7a6542fe.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/c04634f42a68f44d5083f1868f237523.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/c04634f42a68f44d5083f1868f237523.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/c11cec8cf478760e7078eb4348c45f46.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/c11cec8cf478760e7078eb4348c45f46.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/c1252454977af349c6c2f78d8c1a1953.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/c1252454977af349c6c2f78d8c1a1953.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/c2034978909726623dc91f64804604ef.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/c2034978909726623dc91f64804604ef.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/c2e9ffa719d0083588ef0fc824788c3d.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/c2e9ffa719d0083588ef0fc824788c3d.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/c3286d30ffe0068852ba05f7eb63ae6c.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/c3286d30ffe0068852ba05f7eb63ae6c.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/c3ab497b86fc26b07d715f064f676494.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/c3ab497b86fc26b07d715f064f676494.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/c4721ac4490cb4297248ea69b7c334d0.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/c4721ac4490cb4297248ea69b7c334d0.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/c565d33fb87a4e6d7f0a549955cb4793.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/c565d33fb87a4e6d7f0a549955cb4793.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/c593520a80fc845fa0744e65c1d8e34d.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/c593520a80fc845fa0744e65c1d8e34d.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/c5ab5036bf52734539bb1e8ab97a1f8a.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/c5ab5036bf52734539bb1e8ab97a1f8a.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/c6b1baf96c632f45481d8b51e41594d2.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/c6b1baf96c632f45481d8b51e41594d2.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/c97a3e6cb68ef22af98b3511b8de03aa.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/c97a3e6cb68ef22af98b3511b8de03aa.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/cb2b05fef51739cd03fd866e14690d62.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/cb2b05fef51739cd03fd866e14690d62.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/cc0394a2187f806b9e35f99b24718e45.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/cc0394a2187f806b9e35f99b24718e45.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/cc176e0bf1f43e060a9fb4c7bf581f10.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/cc176e0bf1f43e060a9fb4c7bf581f10.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/cc387e85c4b32037c206d166a783aa5a.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/cc387e85c4b32037c206d166a783aa5a.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/cc7a099653911bb9f158ed1f6d765d10.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/cc7a099653911bb9f158ed1f6d765d10.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/cd67ed0168e6b5f1ced1993fdc26ce63.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/cd67ed0168e6b5f1ced1993fdc26ce63.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/ce602e7cebb6bb5d162c46d9c5f35c50.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/ce602e7cebb6bb5d162c46d9c5f35c50.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/ce79216eef0af4532e1e185f9d03e203.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/ce79216eef0af4532e1e185f9d03e203.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/cf0a9fbe4e6dd3d77685f870253df202.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/cf0a9fbe4e6dd3d77685f870253df202.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/d13e9e178d62837f5085400aa37387dd.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/d13e9e178d62837f5085400aa37387dd.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/d1d0c1f461da11eb1ecb6dab5a53b247.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/d1d0c1f461da11eb1ecb6dab5a53b247.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/d36c5bc2fcc4c2818a94fa28e25ebedb.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/d36c5bc2fcc4c2818a94fa28e25ebedb.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/d5e616712058920b7f6513bd9c5fb7d7.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/d5e616712058920b7f6513bd9c5fb7d7.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/d6701ecbaa4c6f31587e73a48754bb12.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/d6701ecbaa4c6f31587e73a48754bb12.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/d725396b80f7339cc9a2688727f40ee8.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/d725396b80f7339cc9a2688727f40ee8.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/d781f6f5285d0d1e8d46d2b9fa2216a8.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/d781f6f5285d0d1e8d46d2b9fa2216a8.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/d7a7b329920330359e50f255d4ef2592.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/d7a7b329920330359e50f255d4ef2592.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/d7aa09c7a99ea5162d7e724f3930ecf6.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/d7aa09c7a99ea5162d7e724f3930ecf6.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/d7df04e68e3822b0b26f3f2a0b4e43e1.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/d7df04e68e3822b0b26f3f2a0b4e43e1.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/d866ec94ffa29d5a0357cdb26f149782.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/d866ec94ffa29d5a0357cdb26f149782.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/d89e43eff3b0d48477c27188837b7ad3.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/d89e43eff3b0d48477c27188837b7ad3.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/d8acf6f524da8b0d468e8823f3434327.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/d8acf6f524da8b0d468e8823f3434327.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/d8c4dafe277f5b7c00b6fad53a6137ae.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/d8c4dafe277f5b7c00b6fad53a6137ae.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/d8e8c41fe31d71bdad71ea2d2081d9cc.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/d8e8c41fe31d71bdad71ea2d2081d9cc.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/da9242c20d52e38fb89876f656f25519.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/da9242c20d52e38fb89876f656f25519.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/db6d05145381874ac87193a10791d8e3.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/db6d05145381874ac87193a10791d8e3.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/dc2a695a90fcfbdb82c38e99408f97e2.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/dc2a695a90fcfbdb82c38e99408f97e2.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/de2214bbadf105dae583c0a15e09d886.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/de2214bbadf105dae583c0a15e09d886.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/de66820608241aaa2dd1f6ea0d90b24d.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/de66820608241aaa2dd1f6ea0d90b24d.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/df04aecbdca0ea3c9977224e79198f73.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/df04aecbdca0ea3c9977224e79198f73.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/df534a7bb3e2c489ab3fb495e42d8ddb.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/df534a7bb3e2c489ab3fb495e42d8ddb.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/e0b226cd49ae6afd9ce65065b0c6523f.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/e0b226cd49ae6afd9ce65065b0c6523f.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/e166ad612fc7c2025efe36024b8b1d32.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/e166ad612fc7c2025efe36024b8b1d32.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/e25085b650b4953b06c3d01b73d7b2b4.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/e25085b650b4953b06c3d01b73d7b2b4.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/e2c22b3ac675c60397b7370381c74728.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/e2c22b3ac675c60397b7370381c74728.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/e36969712a0a2306b2c1509b994f3da3.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/e36969712a0a2306b2c1509b994f3da3.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/e37fab49eb9fdc563e03e217daa17682.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/e37fab49eb9fdc563e03e217daa17682.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/e3b505e05313017fb7f407d52ccdf543.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/e3b505e05313017fb7f407d52ccdf543.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/e4c26ce0f3f9a655e5a16ba7ea54928d.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/e4c26ce0f3f9a655e5a16ba7ea54928d.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/e7b1da6c646b9e05f8ffd01ed1a6e880.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/e7b1da6c646b9e05f8ffd01ed1a6e880.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/e8abd78d5a1be8e82b47e95841593d84.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/e8abd78d5a1be8e82b47e95841593d84.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/e8f0265e7e9db2f65e320c19e3424512.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/e8f0265e7e9db2f65e320c19e3424512.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/e92edbce1ce9b5f6d79131239e2582bc.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/e92edbce1ce9b5f6d79131239e2582bc.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/ea7d21916c3b4baa732f0a8e26736dad.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/ea7d21916c3b4baa732f0a8e26736dad.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/ea9d7f77bc5ddd3c0c828017c3a192e0.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/ea9d7f77bc5ddd3c0c828017c3a192e0.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/eaedf56c5faad5c5f901ab817abc3c95.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/eaedf56c5faad5c5f901ab817abc3c95.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/eb451349c8b0d32dfacc9ca81b56cc78.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/eb451349c8b0d32dfacc9ca81b56cc78.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/eb755ed50be362ddb91f9117d4c8069a.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/eb755ed50be362ddb91f9117d4c8069a.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/eb8813c3e29e2e6f142289b5c1770a67.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/eb8813c3e29e2e6f142289b5c1770a67.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/ec0492d51165d73b86649890a0b91f6c.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/ec0492d51165d73b86649890a0b91f6c.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/ec54d3793454aa99bf165ec7708fe819.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/ec54d3793454aa99bf165ec7708fe819.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/ecb82f8592e5aefd1f974254baa69b72.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/ecb82f8592e5aefd1f974254baa69b72.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/eda76c10fdbcdefc6bfda5576f50d4e9.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/eda76c10fdbcdefc6bfda5576f50d4e9.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/ee4f22854cd4f1c51445e039d3eb32c6.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/ee4f22854cd4f1c51445e039d3eb32c6.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/efdf086c1b0c72017a7ef181b30bb585.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/efdf086c1b0c72017a7ef181b30bb585.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/f17c7e810ea7df264f6e1640dff5f649.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/f17c7e810ea7df264f6e1640dff5f649.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/f21847f1c6c1ad291ff68d4487552032.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/f21847f1c6c1ad291ff68d4487552032.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/f250d858250df2e789329671757b9dc2.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/f250d858250df2e789329671757b9dc2.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/f4967fb2eb6f29b6e53aba87e420ccfc.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/f4967fb2eb6f29b6e53aba87e420ccfc.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/f4d1e808638f9e1fb6d2a7d6384178e0.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/f4d1e808638f9e1fb6d2a7d6384178e0.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/f645f5f32e21afd6b84df858d3b3548b.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/f645f5f32e21afd6b84df858d3b3548b.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/f78b26e4af448f37b0ba561b4be3521b.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/f78b26e4af448f37b0ba561b4be3521b.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/f7c985275d6a8a9832c32578f60ee209.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/f7c985275d6a8a9832c32578f60ee209.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/f894bc38bf1138a79091f8bf4cfebb6b.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/f894bc38bf1138a79091f8bf4cfebb6b.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/fae8c0534f7a106f501fd8b8dac9fed4.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/fae8c0534f7a106f501fd8b8dac9fed4.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/fb5f34860098f09e2333ad9185d92a53.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/fb5f34860098f09e2333ad9185d92a53.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/fbb602c66d9249a440607e288c6d6037.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/fbb602c66d9249a440607e288c6d6037.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/fd525ddf05492db80830d3e3eb0f4260.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/fd525ddf05492db80830d3e3eb0f4260.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/fdb99182e9b20755e27c05c33b848485.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/fdb99182e9b20755e27c05c33b848485.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/fe0099f88b49d7fbfe41047a19361f96.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/fe0099f88b49d7fbfe41047a19361f96.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/fe0e8c641a04bb4d72ab7f549f250cea.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/fe0e8c641a04bb4d72ab7f549f250cea.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/fe6c98cba15ca628442bc800f06b9f33.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/fe6c98cba15ca628442bc800f06b9f33.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/feaeabebdbfa5caeefd03b758839af47.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/feaeabebdbfa5caeefd03b758839af47.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/.cache/ff847a94f1d8f9f3e3985d54d47eb36f.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/.cache/ff847a94f1d8f9f3e3985d54d47eb36f.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/Views/Shared/_Layout.cshtml" afterPath="$PROJECT_DIR$/IlluminateLms.Web/Views/Shared/_Layout.cshtml" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/package.json" afterPath="$PROJECT_DIR$/IlluminateLms.Web/package.json" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/src/Components/Admin/Courses/Creator/index.tsx" afterPath="$PROJECT_DIR$/IlluminateLms.Web/src/Components/Admin/Courses/Creator/index.tsx" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/src/Components/Course/ClassList/index.tsx" afterPath="$PROJECT_DIR$/IlluminateLms.Web/src/Components/Course/ClassList/index.tsx" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/wwwroot/index.js" afterPath="$PROJECT_DIR$/IlluminateLms.Web/wwwroot/index.js" />
+      <change beforePath="$PROJECT_DIR$/IlluminateLms.Web/wwwroot/index.map" afterPath="$PROJECT_DIR$/IlluminateLms.Web/wwwroot/index.map" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/IlluminateLms.Web/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="59" column="30" lean-forward="false" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/IlluminateLms.Business.Test/TemplateFixture.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/IlluminateLms.Enterprise/Utilities/IlluminateLmsDatabaseInitalizer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/IlluminateLms.Api/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/IlluminateLms.Api/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/IlluminateLms.Business/Helpers/CommonConfig.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/IlluminateLms.Api/appsettings.json" />
+        <option value="$PROJECT_DIR$/IlluminateLms.Api/Startup.cs" />
+        <option value="$PROJECT_DIR$/IlluminateLms.Business/Helpers/CommonConfig.cs" />
+        <option value="$PROJECT_DIR$/IlluminateLms.Web/package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/IlluminateLms.Web/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="947" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="IlluminateLms (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="IlluminateLms (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="IlluminateLms.Web" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Compound.Both">
+    <configuration name="Both" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+      <toRun type="DotNetProject" name="Api" />
+      <toRun type="DotNetProject" name="Web" />
+    </configuration>
+    <configuration name="Api" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/IlluminateLms.Api/bin/Debug/netcoreapp2.0/IlluminateLms.Api.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IlluminateLms.Api" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5001" />
+        <env name="ConnectionString" value="server=localhost;userid=IlluminateUser;password=IlluminateUser;database=IlluminateLms;" />
+      </envs>
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/IlluminateLms.Api/IlluminateLms.Api.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+      <browser url="http://localhost:5000" />
+    </configuration>
+    <configuration name="Web" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/IlluminateLms.Web/bin/Debug/netcoreapp2.0/IlluminateLms.Web.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IlluminateLms.Web" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/IlluminateLms.Web/IlluminateLms.Web.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+      <browser url="http://localhost:5000" />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue=".NET Project.Api" />
+      <item index="1" class="java.lang.String" itemvalue=".NET Project.Web" />
+      <item index="2" class="java.lang.String" itemvalue="Compound.Both" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8b3c618-b629-4ce5-bda0-5c67d2eac568" name="Default" comment="" />
+      <created>1520402632063</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1520402632063</updated>
+      <workItem from="1520402635652" duration="1414000" />
+      <workItem from="1520475730979" duration="484000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1898000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="947" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298122" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298122" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25579977" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39906102" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>this.Configuration[&quot;ConnectionString&quot;]</expression-string>
+        <language-id>C#</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/IlluminateLms.Api/IlluminateLms.Api.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IlluminateLms.Api/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IlluminateLms.Enterprise/Utilities/IlluminateLmsDatabaseInitalizer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-545">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IlluminateLms.Business/Helpers/CommonConfig.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="28" column="100" lean-forward="false" selection-start-line="28" selection-start-column="100" selection-end-line="28" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IlluminateLms.Api/appsettings.Development.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IlluminateLms.Api/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IlluminateLms.Api/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="204" column="43" lean-forward="true" selection-start-line="204" selection-start-column="43" selection-end-line="204" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IlluminateLms.Business.Test/TemplateFixture.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IlluminateLms.Web/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="59" column="30" lean-forward="false" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

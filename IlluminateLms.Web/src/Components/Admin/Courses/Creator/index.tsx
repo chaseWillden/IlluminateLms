@@ -3,9 +3,9 @@ import { CourseState } from "./CourseState";
 import { connect } from 'react-redux';
 import { Course } from '../../../../Models/index';
 import { CreateCourse } from '../../../../Actions';
-import { Form, Input } from '../../../../Containers/Form';
-import { Button } from '../../../../Containers/Button';
 import { withRouter } from 'react-router';
+import { TextField, Grid, Button } from 'material-ui'
+import {H3} from '../../../../Containers/Headers';
 
 class CourseCreatorContainer extends React.Component<any, CourseState> {
 
@@ -17,9 +17,9 @@ class CourseCreatorContainer extends React.Component<any, CourseState> {
     description: 'This course is an introduction to the business processes and everything else.'
   };
 
-  componentWillReceiveProps(nextProps: any){
+  componentWillReceiveProps(nextProps: any) {
     let course: Course = nextProps.course;
-    if (course.courseId > 0){
+    if (course.courseId > 0) {
       this.props.history.push('/selected/' + course.courseId);
     }
   }
@@ -37,44 +37,45 @@ class CourseCreatorContainer extends React.Component<any, CourseState> {
 
   render() {
 
-    const {createCourse} = this.props;
+    const { createCourse } = this.props;
 
     return (
-      <div className='uk-container'>
-        <h1>Course Creator</h1>
-        <Form>
-          <div data-uk-grid>
-            <Input 
-              divClass='uk-width-1-3@m' 
-              label='Name' 
-              onChange={this.fieldUpdate.bind(this, 'name')}
-              value={this.state.name}
-              placeholder='Introduction to Business' />
-          </div>
-          <div data-uk-grid>
-            <Input 
-              divClass='uk-width-1-3@m' 
-              label='Course Code' 
-              onChange={this.fieldUpdate.bind(this, 'courseCode')}
-              value={this.state.courseCode}
-              placeholder='B 101' />
-          </div>
-          <div data-uk-grid>
-            <Input
-              divClass='uk-width-1-3@m'
-              label='Course Description'
-              onChange={this.fieldUpdate.bind(this, 'description')}
-              value={this.state.description}
-              textarea={true}
-              placeholder='This course...' />
-          </div>
-          <div data-uk-grid>
-            <div className="uk-width-1-3@m">
-              <Button onClick={createCourse.bind(this, this.state)} text='Create Course' type='primary' />
-            </div>
-          </div>
-        </Form>
-      </div>
+      <Grid container>
+        <Grid item xs={2} />
+        <Grid item xs={8}>
+          <H3>Course Creator</H3>
+          <Grid container>
+            <Grid item xs={5}>
+              <form noValidate autoComplete="off">
+                <TextField
+                  label="Name"
+                  value={this.state.name}
+                  onChange={this.fieldUpdate.bind(this, 'name')}
+                  margin="normal"
+                  fullWidth
+                />
+                <TextField
+                  label="Course Code"
+                  value={this.state.courseCode}
+                  onChange={this.fieldUpdate.bind(this, 'courseCode')}
+                  margin="normal"
+                  fullWidth
+                />
+                <TextField
+                  label="Course Description"
+                  value={this.state.description}
+                  onChange={this.fieldUpdate.bind(this, 'description')}
+                  margin="normal"
+                  fullWidth
+                  multiline
+                />
+              </form>
+              <br/>
+              <Button variant="raised" onClick={createCourse.bind(this, this.state)} color='primary'>Create Course</Button>
+            </Grid>
+          </Grid>
+        </Grid>
+      </Grid>
     )
   }
 }

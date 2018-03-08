@@ -73,7 +73,7 @@ namespace IlluminateLms.Api
 
             services.AddDbContext<IlluminateLmsContext>(options =>
             {
-                options.UseMySql(Configuration["ConnectionStrings:DefaultConnection"]);
+                options.UseMySql(Configuration["ConnectionString"]);
                 options.UseOpenIddict();
             });
 
