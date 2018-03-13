@@ -96,6 +96,7 @@
         <e p="TemplateFixture.cs" t="Include" />
         <e p="Tests" t="Include">
           <e p="AccountBusinessTest.cs" t="Include" />
+          <e p="BookmarkBusinessTest.cs" t="Include" />
           <e p="CourseBusinessTest.cs" t="Include" />
           <e p="RoleBusinessTest.cs" t="Include" />
         </e>
@@ -203,8 +204,10 @@
                 <e p="index.tsx" t="Include" />
                 <e p="List" t="Include">
                   <e p="index.tsx" t="Include" />
+                  <e p="Link.tsx" t="Include" />
                 </e>
                 <e p="SelectedCourse" t="Include">
+                  <e p="Contants.tsx" t="Include" />
                   <e p="CourseActions.tsx" t="Include" />
                   <e p="index.tsx" t="Include" />
                   <e p="LaunchCourse.tsx" t="Include" />
@@ -347,6 +350,8 @@
               <e p="Input.tsx" t="Include" />
               <e p="Select.tsx" t="Include" />
             </e>
+            <e p="Headers.tsx" t="Include" />
+            <e p="Input.tsx" t="Include" />
             <e p="Modal" t="Include">
               <e p="ConfirmationModal.tsx" t="Include" />
               <e p="index.ts" t="Include" />
@@ -367,6 +372,7 @@
           <e p="Helpers" t="Include">
             <e p="Constants.ts" t="Include" />
             <e p="Cookies.ts" t="Include" />
+            <e p="Date.ts" t="Include" />
             <e p="index.ts" t="Include" />
             <e p="JQueryPromise.ts" t="Include" />
             <e p="PermissionHelper.ts" t="Include" />
@@ -424,6 +430,7 @@
           <e p="Store.ts" t="Include" />
           <e p="theme" t="Include">
             <e p="theme.scss" t="Include" />
+            <e p="theme.ts" t="Include" />
           </e>
         </e>
         <e p="Startup.cs" t="Include" />

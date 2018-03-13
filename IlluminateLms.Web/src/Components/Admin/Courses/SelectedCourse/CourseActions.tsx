@@ -84,7 +84,7 @@ class CourseActionsContainer extends React.Component<any, any>{
           <ListItemText inset primary='Make Public' />
         </MenuItem>
         <MenuItem onClick={() => {
-          if (!bookmark.course || bookmark.course.bookmarkedCourseId === course.courseId) {
+          if (bookmark.bookmarkedCourseId > -1 && bookmark.course.courseId === course.courseId) {
             this.props.removeBookmarkedCourse(course.courseId);
           }
           else {
@@ -94,7 +94,7 @@ class CourseActionsContainer extends React.Component<any, any>{
           }
         }}>
           <ListItemIcon><Bookmark /></ListItemIcon>
-          <ListItemText inset primary={!bookmark.course || bookmark.course.courseId === course.courseId ? 'Remove Bookmark' : 'Create Bookmark'} />
+          <ListItemText inset primary={bookmark.bookmarkedCourseId > -1 && bookmark.course.courseId === course.courseId ? 'Remove Bookmark' : 'Create Bookmark'} />
         </MenuItem>
         <ListSubheader>Global</ListSubheader>
         <MenuItem>

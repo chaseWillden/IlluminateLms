@@ -5,12 +5,9 @@ import {
   GetCourseById, 
   UpdateCourse 
 } from '../../../../Actions';
-import * as moment from 'moment';
 import CourseActions from './CourseActions';
 import {SelectedCourseContainerState} from './States'
-import FormField from '../../../../Containers/Form/FormField';
 import { 
-  TextField, 
   Button, 
   withStyles, 
   Menu, 
@@ -18,21 +15,23 @@ import {
 } from 'material-ui';
 import {Edit, Launch, ArrowDropDown, Save, Cancel} from 'material-ui-icons';
 import { H4 } from '../../../../Containers/Headers';
+import { DetailedItem } from './Contants';
+import { Input } from '../../../../Containers/Input';
 
 const _aboutTheCourse = [
-  {title: 'Course Code', name: 'courseCode'},
-  {title: 'Course Name', name: 'name'},
-  {title: 'Description', name: 'description'},
-  {title: 'Is Archived', name: 'isArchived'},
-  {title: 'Is Public', name: 'isPublic'},
-  {title: 'Public Syllabus', name: 'publicSyllabus'},
-  {title: 'Start Date', name: 'start'},
-  {title: 'End Date', name: 'end'}
+  {title: 'Course Code', name: 'courseCode', type: 'string'},
+  {title: 'Course Name', name: 'name', type: 'string'},
+  {title: 'Description', name: 'description', type: 'string'},
+  {title: 'Is Archived', name: 'isArchived', type: 'boolean'},
+  {title: 'Is Public', name: 'isPublic', type: 'boolean'},
+  {title: 'Public Syllabus', name: 'publicSyllabus', type: 'boolean'},
+  {title: 'Start Date', name: 'start', type: 'date'},
+  {title: 'End Date', name: 'end', type: 'date'}
 ];
 
 const styles = (theme: any) => ({
   button: {
-    margin: theme.spacing.unit
+    margin: 0
   },
   leftIcon: {
     marginRight: theme.spacing.unit,
@@ -77,14 +76,6 @@ class SelectedCourseContainer extends React.Component<any, SelectedCourseContain
     this.setState({course: course});
   }
 
-  /**
-   * Format date
-   * @param date 
-   */
-  formatDate(date: Date){
-    return moment(date).format('MMMM Do YYYY, h:mm:ss a');
-  }
-
   render() {
     const course: Course = this.state.course;
     const {leftIcon, button} = this.props.classes;
@@ -106,9 +97,13 @@ class SelectedCourseContainer extends React.Component<any, SelectedCourseContain
           </div>
           {course.courseCode} - {course.name}
         </h1>
-        <div className="uk-inline">
-        
-          <Button className={button} onClick={() => this.state.editNames ? this.save.bind(this) : this.setState({editNames: true})}>
+        <div>        
+          <Button className={button} onClick={() => {
+            if (this.state.editNames){
+              this.save();
+            }
+            this.setState({editNames: !this.state.editNames});
+          }}>
             {this.state.editNames ?  <Save className={leftIcon} /> : <Edit className={leftIcon} />}
             {this.state.editNames ? 'Save' : 'Edit'}
           </Button>
@@ -136,17 +131,17 @@ class SelectedCourseContainer extends React.Component<any, SelectedCourseContain
             <H4>About the Course</H4>
             {_aboutTheCourse.map((about: any) => {
               return this.state.editNames ? (
-                <TextField
+                <Input
                   id={about.title}
                   label={about.title}
                   value={course[about.name]}
                   onChange={this.saveField.bind(this, about.name)}
-                  margin="normal"
                   key={about.name}
                   fullWidth
+                  type={about.type}
                 />
               ) : (
-                <div key={about.name}>{course[about.name]}</div>
+                <DetailedItem key={about.name} course={course} about={about} />
               )
             })}
           </Grid>

@@ -1,17 +1,10 @@
-﻿using System;
-using System.Linq;
-using System.Threading.Tasks;
-using AutoMapper;
+﻿using System.Threading.Tasks;
 using IlluminateLms.Api.Helpers;
 using IlluminateLms.Business.Business;
 using IlluminateLms.Business.Model;
-using IlluminateLms.Enterprise.Entities;
-using IlluminateLms.Enterprise.Entities.Identity;
 using IlluminateLms.Enterprise.Helpers;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace IlluminateLms.Api.Controllers
 {
